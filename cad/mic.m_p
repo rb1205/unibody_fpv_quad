@@ -1,0 +1,38 @@
+﻿                         MASS PROPERTIES OF THE PART MIC
+
+                         VOLUME =  1.1246174e+03 MM^3
+                   SURFACE AREA =  1.2099692e+03 MM^2
+                        DENSITY =  1.7800000e-06 KILOGRAM / MM^3
+                           MASS =  2.0018189e-03 KILOGRAM 
+
+            CENTER OF GRAVITY with respect to _MIC coordinate frame:
+X   Y   Z           1.8994787e+00 -9.5965524e-01  0.0000000e+00  MM
+
+        INERTIA with respect to _MIC coordinate frame:  (KILOGRAM * MM^2)
+
+INERTIA TENSOR:
+Ixx Ixy Ixz         2.8624167e-02 -2.9195762e-02  0.0000000e+00
+Iyx Iyy Iyz        -2.9195762e-02  3.0146544e-01  0.0000000e+00
+Izx Izy Izz         0.0000000e+00  0.0000000e+00  3.0151192e-01
+
+       INERTIA at CENTER OF GRAVITY with respect to _MIC coordinate frame:
+                                                        (KILOGRAM * MM^2)       
+INERTIA TENSOR:
+Ixx Ixy Ixz         2.6780616e-02 -3.2844767e-02  0.0000000e+00
+Iyx Iyy Iyz        -3.2844767e-02  2.9424284e-01  0.0000000e+00
+Izx Izy Izz         0.0000000e+00  0.0000000e+00  2.9244577e-01
+
+                PRINCIPAL MOMENTS OF INERTIA:  (KILOGRAM * MM^2)
+I1  I2  I3          2.2806285e-02  2.9244577e-01  2.9821717e-01
+
+            ROTATION MATRIX from _MIC orientation to PRINCIPAL AXES:
+                       0.99276        0.00000        0.12013
+                       0.12013        0.00000       -0.99276
+                       0.00000        1.00000        0.00000
+
+       ROTATION ANGLES from _MIC orientation to PRINCIPAL AXES (degrees):
+angles about x  y  z   90.000          6.899          0.000 
+
+                RADII OF GYRATION with respect to PRINCIPAL AXES:
+R1  R2  R3          3.3753194e+00  1.2086771e+01  1.2205454e+01  MM
+

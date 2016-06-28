@@ -1,0 +1,38 @@
+﻿                         MASS PROPERTIES OF THE PART RX
+
+                         VOLUME =  3.8808000e+04 MM^3
+                   SURFACE AREA =  7.4340000e+03 MM^2
+                        DENSITY =  1.0400000e-06 KILOGRAM / MM^3
+                           MASS =  4.0360320e-02 KILOGRAM 
+
+             CENTER OF GRAVITY with respect to _RX coordinate frame:
+X   Y   Z           0.0000000e+00  1.0500000e+01  0.0000000e+00  MM
+
+        INERTIA with respect to _RX coordinate frame:  (KILOGRAM * MM^2)
+
+INERTIA TENSOR:
+Ixx Ixy Ixz         9.5956661e+00  0.0000000e+00  0.0000000e+00
+Iyx Iyy Iyz         0.0000000e+00  1.4210196e+01  0.0000000e+00
+Izx Izy Izz         0.0000000e+00  0.0000000e+00  1.6480464e+01
+
+       INERTIA at CENTER OF GRAVITY with respect to _RX coordinate frame:
+                                                        (KILOGRAM * MM^2)       
+INERTIA TENSOR:
+Ixx Ixy Ixz         5.1459408e+00  0.0000000e+00  0.0000000e+00
+Iyx Iyy Iyz         0.0000000e+00  1.4210196e+01  0.0000000e+00
+Izx Izy Izz         0.0000000e+00  0.0000000e+00  1.2030739e+01
+
+                PRINCIPAL MOMENTS OF INERTIA:  (KILOGRAM * MM^2)
+I1  I2  I3          5.1459408e+00  1.2030739e+01  1.4210196e+01
+
+             ROTATION MATRIX from _RX orientation to PRINCIPAL AXES:
+                       1.00000        0.00000        0.00000
+                       0.00000        0.00000       -1.00000
+                       0.00000        1.00000        0.00000
+
+        ROTATION ANGLES from _RX orientation to PRINCIPAL AXES (degrees):
+angles about x  y  z   90.000          0.000          0.000 
+
+                RADII OF GYRATION with respect to PRINCIPAL AXES:
+R1  R2  R3          1.1291590e+01  1.7265090e+01  1.8763884e+01  MM
+
