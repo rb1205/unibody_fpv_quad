@@ -1,8 +1,8 @@
 # Unibody FPV quad
 
-A size class 400 FPV quadcopter assembled over a single piece FDM printable body. Some highlights:
-
 ![Quad photo](docs/3-4_photo_800x600.jpg)
+
+A size class 400 FPV quadcopter assembled over a single piece FDM printable body. Some highlights:
 
 * Good FPV flight performances for its class due to high frame rigidity (comparable to frames made from single carbon fiber sheets) and relatively low inertia moment
 * servo-operated tiltable FPV CCD camera mount with 180° mechanical range integrated in the unibody frame.
@@ -38,4 +38,4 @@ CAD/CAM used for this project is Creo V.2.
 
 This project is released under the terms of [Creative Commons Attribution-NonCommercial license](https://creativecommons.org/licenses/by-nc/4.0/)
 
-Please contact us at info@inova-soluzioni.it to discuss commercial usage of this project.
+Please contact us at riccardo.belloli@inova-soluzioni.it to discuss commercial usage of this project.
