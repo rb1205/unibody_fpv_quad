@@ -2,6 +2,8 @@
 
 A size class 400 FPV quadcopter assembled over a single piece FDM printable body. Some highlights:
 
+![Quad photo](docs/3-4_photo_800x600.jpg)
+
 * Good FPV flight performances for its class due to high frame rigidity (comparable to frames made from single carbon fiber sheets) and relatively low inertia moment
 * servo-operated tiltable FPV CCD camera mount with 180° mechanical range.
 * Frame has dedicated fixing points for video TX, ESC, cables, antenna,...
