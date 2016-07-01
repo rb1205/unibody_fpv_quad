@@ -5,7 +5,7 @@ A size class 400 FPV quadcopter assembled over a single piece FDM printable body
 ![Quad photo](docs/3-4_photo_800x600.jpg)
 
 * Good FPV flight performances for its class due to high frame rigidity (comparable to frames made from single carbon fiber sheets) and relatively low inertia moment
-* servo-operated tiltable FPV CCD camera mount with 180° mechanical range.
+* servo-operated tiltable FPV CCD camera mount with 180° mechanical range integrated in the unibody frame.
 * Frame has dedicated fixing points for video TX, ESC, cables, antenna,...
 * BOM and exploded diagram of the project with all components and screws located, for easy assembly. 
 * Printable & easly replaceable landing gears
@@ -32,7 +32,7 @@ CAD/CAM used for this project is Creo V.2.
 
 [Wiring diagram](https://github.com/rb1205/unibody_fpv_quad/raw/master/docs/wiring_diagram.pdf)
 
-[Flight controller PID settings](docs/fc_settings.md) (valid only for the powertrain configuration listed in the BOM)
+[Flight controller PID settings for CleanFlight](docs/fc_settings.md) (valid only for the powertrain configuration listed in the BOM)
 
 ---
 
