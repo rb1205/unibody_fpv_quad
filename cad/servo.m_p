@@ -1,0 +1,38 @@
+﻿                        MASS PROPERTIES OF THE PART SERVO
+
+                         VOLUME =  6.4061964e+03 MM^3
+                   SURFACE AREA =  2.5253933e+03 MM^2
+                        DENSITY =  1.5600000e-06 KILOGRAM / MM^3
+                           MASS =  9.9936664e-03 KILOGRAM 
+
+           CENTER OF GRAVITY with respect to _SERVO coordinate frame:
+X   Y   Z           8.2384498e+00  0.0000000e+00 -5.2594536e+00  MM
+
+       INERTIA with respect to _SERVO coordinate frame:  (KILOGRAM * MM^2)
+
+INERTIA TENSOR:
+Ixx Ixy Ixz         8.7630692e-01  0.0000000e+00  5.0095596e-01
+Iyx Iyy Iyz         0.0000000e+00  1.9305302e+00  0.0000000e+00
+Izx Izy Izz         5.0095596e-01  0.0000000e+00  1.2682884e+00
+
+      INERTIA at CENTER OF GRAVITY with respect to _SERVO coordinate frame:
+                                                         (KILOGRAM * MM^2)      
+INERTIA TENSOR:
+Ixx Ixy Ixz         5.9986360e-01  0.0000000e+00  6.7932949e-02
+Iyx Iyy Iyz         0.0000000e+00  9.7579619e-01  0.0000000e+00
+Izx Izy Izz         6.7932949e-02  0.0000000e+00  5.8999772e-01
+
+                PRINCIPAL MOMENTS OF INERTIA:  (KILOGRAM * MM^2)
+I1  I2  I3          5.2681884e-01  6.6304248e-01  9.7579619e-01
+
+           ROTATION MATRIX from _SERVO orientation to PRINCIPAL AXES:
+                      -0.68102        0.73227        0.00000
+                       0.00000        0.00000        1.00000
+                       0.73227        0.68102        0.00000
+
+      ROTATION ANGLES from _SERVO orientation to PRINCIPAL AXES (degrees):
+angles about x  y  z  -90.000          0.000       -132.923 
+
+                RADII OF GYRATION with respect to PRINCIPAL AXES:
+R1  R2  R3          7.2605284e+00  8.1453219e+00  9.8813694e+00  MM
+

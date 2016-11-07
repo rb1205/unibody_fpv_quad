@@ -1,0 +1,38 @@
+﻿                      MASS PROPERTIES OF THE PART CARRELLO
+
+                         VOLUME =  2.7195757e+03 MM^3
+                   SURFACE AREA =  3.4514890e+03 MM^2
+                        DENSITY =  1.0000000e-06 KILOGRAM / MM^3
+                           MASS =  2.7195757e-03 KILOGRAM 
+
+          CENTER OF GRAVITY with respect to _CARRELLO coordinate frame:
+X   Y   Z           0.0000000e+00  2.5572768e+01 -3.3483335e+01  MM
+
+     INERTIA with respect to _CARRELLO coordinate frame:  (KILOGRAM * MM^2)
+
+INERTIA TENSOR:
+Ixx Ixy Ixz         6.5146570e+00  0.0000000e+00  0.0000000e+00
+Iyx Iyy Iyz         0.0000000e+00  3.9344150e+00  3.0940336e+00
+Izx Izy Izz         0.0000000e+00  3.0940336e+00  2.6948239e+00
+
+    INERTIA at CENTER OF GRAVITY with respect to _CARRELLO coordinate frame:
+                                                           (KILOGRAM * MM^2)    
+INERTIA TENSOR:
+Ixx Ixy Ixz         1.6871376e+00  0.0000000e+00  0.0000000e+00
+Iyx Iyy Iyz         0.0000000e+00  8.8540688e-01  7.6536544e-01
+Izx Izy Izz         0.0000000e+00  7.6536544e-01  9.1631266e-01
+
+                PRINCIPAL MOMENTS OF INERTIA:  (KILOGRAM * MM^2)
+I1  I2  I3          1.3533835e-01  1.6663812e+00  1.6871376e+00
+
+          ROTATION MATRIX from _CARRELLO orientation to PRINCIPAL AXES:
+                       0.00000        0.00000        1.00000
+                       0.71421        0.69993        0.00000
+                      -0.69993        0.71421        0.00000
+
+     ROTATION ANGLES from _CARRELLO orientation to PRINCIPAL AXES (degrees):
+angles about x  y  z    0.000         90.000         45.578 
+
+                RADII OF GYRATION with respect to PRINCIPAL AXES:
+R1  R2  R3          7.0543963e+00  2.4753499e+01  2.4907187e+01  MM
+

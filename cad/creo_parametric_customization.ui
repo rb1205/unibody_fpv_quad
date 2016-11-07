@@ -1,0 +1,253 @@
+#UGC:2 NEUTRAL 1607 440 805 0 0 15 3300 2012060 00000000 \
+#- VERS 0 0                                                          \
+#- HOST                                                              \
+#- LINK                                                              \
+#- DBID                                                              \
+#- REVS 0,                                                           \
+#- RELL 0,                                                           \
+#- UOBJ_ID 0 0 0                                                     \
+#- MACH                                                              \
+#-END_OF_UGC_HEADER
+#Creo  TM  2.0  (c) 2016 by Parametric Technology Corporation  All Rights Reserved. F000
+0 RbnDBData ->
+1 onCreation 
+2 mNumComments 0
+2 mDate 
+0 Toolbar_io ->
+1 msg_win_on_top -1
+1 sec_win_size 1
+1 tree_placement 6
+1 same_height_check 1
+1 tree_width -1.
+1 tree_height -1.
+1 webUI_data ->
+2 show_navigation_tb 1
+2 show_address_tb 1
+2 animate_open_close 0
+2 show_history 0
+2 show_search 0
+2 auto_loading 0
+2 steps 5
+2 width_browser 60.
+2 width_tabs 5.
+2 tabs_placement 0
+1 mapkeys [30]
+2 mapkeys 
+3 name $F2
+3 show_what 2
+3 use_custom_icon_var 0
+3 icon(icon_name) smiley
+2 mapkeys 
+3 name $F3
+3 show_what 2
+3 use_custom_icon_var 0
+3 icon(icon_name) smiley
+2 mapkeys 
+3 name ric
+3 show_what 2
+3 use_custom_icon_var 0
+3 icon(icon_name) smiley
+2 mapkeys 
+3 name tabe01
+3 show_what 2
+3 use_custom_icon_var 0
+3 icon(icon_name) smiley
+2 mapkeys 
+3 name tabe02
+3 show_what 2
+3 use_custom_icon_var 0
+3 icon(icon_name) smiley
+2 mapkeys 
+3 name tabe03
+3 show_what 2
+3 use_custom_icon_var 0
+3 icon(icon_name) smiley
+2 mapkeys 
+3 name ricod
+3 show_what 2
+3 use_custom_icon_var 0
+3 icon(icon_name) smiley
+2 mapkeys 
+3 name ricodd
+3 show_what 2
+3 use_custom_icon_var 0
+3 icon(icon_name) smiley
+2 mapkeys 
+3 name ricoc
+3 show_what 2
+3 use_custom_icon_var 0
+3 icon(icon_name) smiley
+2 mapkeys 
+3 name ricodc
+3 show_what 2
+3 use_custom_icon_var 0
+3 icon(icon_name) smiley
+2 mapkeys 
+3 name ricodl
+3 show_what 2
+3 use_custom_icon_var 0
+3 icon(icon_name) smiley
+2 mapkeys 
+3 name ricodi
+3 show_what 2
+3 use_custom_icon_var 0
+3 icon(icon_name) smiley
+2 mapkeys 
+3 name ricocm
+3 show_what 2
+3 use_custom_icon_var 0
+3 icon(icon_name) smiley
+2 mapkeys 
+3 name ricon
+3 show_what 2
+3 use_custom_icon_var 0
+3 icon(icon_name) smiley
+2 mapkeys 
+3 name ricorg
+3 show_what 2
+3 use_custom_icon_var 0
+3 icon(icon_name) smiley
+2 mapkeys 
+3 name ric-1
+3 show_what 2
+3 use_custom_icon_var 0
+3 icon(icon_name) smiley
+2 mapkeys 
+3 name ric+1
+3 show_what 2
+3 use_custom_icon_var 0
+3 icon(icon_name) smiley
+2 mapkeys 
+3 name commercio
+3 show_what 2
+3 use_custom_icon_var 0
+3 icon(icon_name) smiley
+2 mapkeys 
+3 name relazioni
+3 show_what 2
+3 use_custom_icon_var 0
+3 icon(icon_name) smiley
+2 mapkeys 
+3 name para
+3 show_what 2
+3 use_custom_icon_var 0
+3 icon(icon_name) smiley
+2 mapkeys 
+3 name repa
+3 show_what 2
+3 use_custom_icon_var 0
+3 icon(icon_name) smiley
+2 mapkeys 
+3 name pdf
+3 show_what 2
+3 use_custom_icon_var 0
+3 icon(icon_name) smiley
+2 mapkeys 
+3 name dxf
+3 show_what 2
+3 use_custom_icon_var 0
+3 icon(icon_name) smiley
+2 mapkeys 
+3 name dwg
+3 show_what 2
+3 use_custom_icon_var 0
+3 icon(icon_name) smiley
+2 mapkeys 
+3 name tif
+3 show_what 2
+3 use_custom_icon_var 0
+3 icon(icon_name) smiley
+2 mapkeys 
+3 name dis
+3 show_what 2
+3 use_custom_icon_var 1
+3 icon(icon_var_data) 
+4 flags 23
+4 width 20
+4 height 20
+4 depth 8
+4 hotspot 
+5 x 0
+5 y 0
+4 data [400]
+5 data 51*255,4*21,15*255,21,4*255,21,2*255,21,10*255,21,6*255,3*21,17*255,
+5 3*21,3*255,4*8,9*255,4*21,2*255,8,11,15,11,15,7*8,8*255,8,15,11,15,11,15,11,
+5 15,11,15,11,15,8,7*255,8,11,15,11,15,11,15,11,15,11,15,11,8,7*255,8,15,11,
+5 15,11,15,11,15,11,15,11,15,7,7*255,8,11,15,11,15,11,13*8,255,8,15,11,15,11,
+5 8,7,11,7,11,7,11,7,11,7,11,7,8,2*255,8,11,15,11,8,7,11,7,11,7,11,8*14,255,8,
+5 15,11,8,7,11,7,11,7,11,7,8*14,255,8,11,8,7,11,7,11,7,11,7,11,8*14,255,2*8,7,
+5 11,7,11,7,11,7,11,7,8*14,255,10*8,9*14,12*255,8*14,12*255,8*14
+2 mapkeys 
+3 name rug
+3 show_what 2
+3 use_custom_icon_var 0
+3 icon(icon_name) ecadareaviaout_$20_$20
+2 mapkeys 
+3 name r180
+3 show_what 2
+3 use_custom_icon_var 1
+3 icon(icon_var_data) 
+4 flags 23
+4 width 20
+4 height 20
+4 depth 4
+4 hotspot 
+5 x 0
+5 y 0
+4 data [400]
+5 data 3*255,3*2,16*255,4*2,2*255,15,13*255,4*2,2*255,15,13*255,2,15,3*2,15,
+5 13*255,2*2,2*14,2*2,13*14,255,2*2,14,255,2*2,2*15,11,0,3*15,11,0,3*15,14,
+5 255,2,4*255,2*2,11,0,3*15,11,0,3*15,14,255,2*2,4*255,2*2,0,3*15,11,0,3*15,
+5 11,14,255,2*2,14,2*255,15,11,2*2,2*15,11,0,3*15,11,15,14,255,2,14,15,2*255,
+5 11,0,2*2,15,11,0,3*15,11,2,14,3*255,14,2*15,11,0,3*15,11,0,3*15,11,15,2*2,
+5 15,2*255,14,15,11,0,3*15,11,0,15,8*2,15,14,15,11,0,3*15,11,0,2*15,9*2,14,11,
+5 0,3*15,11,0,3*15,8*2,15,14,0,3*15,11,0,3*15,11,5*15,2*2,15,255,16*14,2,15,
+5 82*255
+2 mapkeys 
+3 name uguale
+3 show_what 2
+3 use_custom_icon_var 1
+3 icon(icon_var_data) 
+4 flags 23
+4 width 20
+4 height 20
+4 depth 4
+4 hotspot 
+5 x 0
+5 y 0
+4 data [400]
+5 data 7*15,255,11*15,255,28*15,3*0,11*15,255,5*15,3*0,26*15,3*255,39*15,
+5 2*255,40*15,5*0,8*15,5*0,255,20*15,255,17*15,3*255,5*0,8*15,5*0,255,15,255,
+5 16*15,2*255,16*15,6*255,13*15,10*255,11*15,14*255,3*15,18*255,15,19*255,15,
+5 8*255
+2 mapkeys 
+3 name ugualer
+3 show_what 2
+3 use_custom_icon_var 1
+3 icon(icon_var_data) 
+4 flags 23
+4 width 20
+4 height 20
+4 depth 4
+4 hotspot 
+5 x 0
+5 y 0
+4 data [400]
+5 data 7*15,255,11*15,255,28*15,3*0,11*15,255,5*15,3*0,26*15,3*255,39*15,
+5 2*255,42*15,5*0,4*15,5*0,23*15,255,19*15,255,2*15,5*0,4*15,5*0,2*15,255,15,
+5 255,16*15,2*255,16*15,6*255,13*15,10*255,11*15,14*255,3*15,18*255,15,19*255,
+5 15,8*255
+0 UitFuture_io 
+1 future_dlg_array [1]
+2 future_dlg_array 
+3 future_dlg ->
+4 name CreoConnector_GettingStarted
+4 state 1
+0 InitialRibbonCustData_io ->
+1 qat_position 1
+1 minimize_ribbon 0
+1 igt_alignment 1
+1 acc_win_igt_alignment 1
+1 igt_icon_size 16
+1 show_navigation_tb 1
+#END_OF_UGC

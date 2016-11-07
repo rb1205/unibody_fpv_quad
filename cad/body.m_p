@@ -1,38 +1,38 @@
 ﻿                        MASS PROPERTIES OF THE PART BODY
 
-                         VOLUME =  2.7003437e+05 MM^3
-                   SURFACE AREA =  1.0587035e+05 MM^2
-                        DENSITY =  1.0000000e-06 KILOGRAM / MM^3
-                           MASS =  2.7003437e-01 KILOGRAM 
+                         VOLUME =  2.4946725e+05 MM^3
+                   SURFACE AREA =  1.0408067e+05 MM^2
+                        DENSITY =  1.3000000e-06 KILOGRAM / MM^3
+                           MASS =  3.2430743e-01 KILOGRAM 
 
             CENTER OF GRAVITY with respect to _BODY coordinate frame:
-X   Y   Z           1.2770883e+01  1.5186960e+00  0.0000000e+00  MM
+X   Y   Z           1.4062215e+01 -4.3090558e-01 -1.0805695e-01  MM
 
        INERTIA with respect to _BODY coordinate frame:  (KILOGRAM * MM^2)
 
 INERTIA TENSOR:
-Ixx Ixy Ixz         3.3751308e+03 -6.1620503e+00  1.1697298e-03
-Iyx Iyy Iyz        -6.1620503e+00  1.6718103e+03  6.0313679e-02
-Izx Izy Izz         1.1697298e-03  6.0313679e-02  1.8518216e+03
+Ixx Ixy Ixz         4.5490536e+03 -5.6544214e-01  1.6199104e+00
+Iyx Iyy Iyz        -5.6544214e-01  2.2567511e+03 -2.2656593e-01
+Izx Izy Izz         1.6199104e+00 -2.2656593e-01  2.5136087e+03
 
       INERTIA at CENTER OF GRAVITY with respect to _BODY coordinate frame:
                                                          (KILOGRAM * MM^2)      
 INERTIA TENSOR:
-Ixx Ixy Ixz         3.3745080e+03 -9.2470971e-01  7.8866215e-04
-Iyx Iyy Iyz        -9.2470971e-01  1.6277689e+03  6.0268363e-02
-Izx Izy Izz         7.8866215e-04  6.0268363e-02  1.8071574e+03
+Ixx Ixy Ixz         4.5489895e+03 -2.5305788e+00  1.1271187e+00
+Iyx Iyy Iyz        -2.5305788e+00  2.1926168e+03 -2.1146542e-01
+Izx Izy Izz         1.1271187e+00 -2.1146542e-01  2.4494180e+03
 
                 PRINCIPAL MOMENTS OF INERTIA:  (KILOGRAM * MM^2)
-I1  I2  I3          1.6277684e+03  1.8071575e+03  3.3745085e+03
+I1  I2  I3          2.1926139e+03  2.4494176e+03  4.5489929e+03
 
             ROTATION MATRIX from _BODY orientation to PRINCIPAL AXES:
-                       0.00053        0.00000        1.00000
-                       1.00000        0.00034       -0.00053
-                      -0.00034        1.00000        0.00000
+                       0.00107       -0.00054        1.00000
+                       1.00000       -0.00082       -0.00107
+                       0.00082        1.00000        0.00054
 
        ROTATION ANGLES from _BODY orientation to PRINCIPAL AXES (degrees):
-angles about x  y  z    0.000         89.970         89.981 
+angles about x  y  z   63.437         89.931         26.610 
 
                 RADII OF GYRATION with respect to PRINCIPAL AXES:
-R1  R2  R3          7.7640226e+01  8.1806626e+01  1.1178814e+02  MM
+R1  R2  R3          8.2224764e+01  8.6906641e+01  1.1843476e+02  MM
 

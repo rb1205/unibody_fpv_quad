@@ -1,0 +1,38 @@
+﻿                         MASS PROPERTIES OF THE PART ESC
+
+                         VOLUME =  2.4450796e+04 MM^3
+                   SURFACE AREA =  6.9223185e+03 MM^2
+                        DENSITY =  2.5000000e-06 KILOGRAM / MM^3
+                           MASS =  6.1126991e-02 KILOGRAM 
+
+            CENTER OF GRAVITY with respect to _ESC coordinate frame:
+X   Y   Z          -2.4091184e+00  5.5000000e+00  0.0000000e+00  MM
+
+        INERTIA with respect to _ESC coordinate frame:  (KILOGRAM * MM^2)
+
+INERTIA TENSOR:
+Ixx Ixy Ixz         7.7487128e+00  8.0994186e-01  0.0000000e+00
+Iyx Iyy Iyz         8.0994186e-01  3.0992534e+01  0.0000000e+00
+Izx Izy Izz         0.0000000e+00  0.0000000e+00  2.8144624e+01
+
+       INERTIA at CENTER OF GRAVITY with respect to _ESC coordinate frame:
+                                                        (KILOGRAM * MM^2)       
+INERTIA TENSOR:
+Ixx Ixy Ixz         5.8996214e+00  0.0000000e+00  0.0000000e+00
+Iyx Iyy Iyz         0.0000000e+00  3.0637762e+01  0.0000000e+00
+Izx Izy Izz         0.0000000e+00  0.0000000e+00  2.5940761e+01
+
+                PRINCIPAL MOMENTS OF INERTIA:  (KILOGRAM * MM^2)
+I1  I2  I3          5.8996214e+00  2.5940761e+01  3.0637762e+01
+
+            ROTATION MATRIX from _ESC orientation to PRINCIPAL AXES:
+                       1.00000        0.00000        0.00000
+                       0.00000        0.00000       -1.00000
+                       0.00000        1.00000        0.00000
+
+       ROTATION ANGLES from _ESC orientation to PRINCIPAL AXES (degrees):
+angles about x  y  z   90.000          0.000          0.000 
+
+                RADII OF GYRATION with respect to PRINCIPAL AXES:
+R1  R2  R3          9.8241630e+00  2.0600362e+01  2.2387830e+01  MM
+
