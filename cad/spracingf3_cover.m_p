@@ -1,0 +1,38 @@
+﻿                  MASS PROPERTIES OF THE PART SPRACINGF3_COVER
+
+                         VOLUME =  1.7246824e+03 MM^3
+                   SURFACE AREA =  2.6773725e+03 MM^2
+                        DENSITY =  1.0000000e-06 KILOGRAM / MM^3
+                           MASS =  1.7246824e-03 KILOGRAM 
+
+      CENTER OF GRAVITY with respect to _SPRACINGF3_COVER coordinate frame:
+X   Y   Z           1.4399760e-01  1.0045330e-01  1.3491038e+00  MM
+
+ INERTIA with respect to _SPRACINGF3_COVER coordinate frame:  (KILOGRAM * MM^2)
+
+INERTIA TENSOR:
+Ixx Ixy Ixz         3.2271800e-01 -1.7054322e-03 -6.4015326e-04
+Iyx Iyy Iyz        -1.7054322e-03  2.6641225e-01 -1.2127505e-04
+Izx Izy Izz        -6.4015326e-04 -1.2127505e-04  5.7843250e-01
+
+INERTIA at CENTER OF GRAVITY with respect to _SPRACINGF3_COVER coordinate frame:
+                                                               (KILOGRAM * MM^2)
+INERTIA TENSOR:
+Ixx Ixy Ixz         3.1956154e-01 -1.6804846e-03 -3.0510315e-04
+Iyx Iyy Iyz        -1.6804846e-03  2.6323743e-01  1.1245725e-04
+Izx Izy Izz        -3.0510315e-04  1.1245725e-04  5.7837933e-01
+
+                PRINCIPAL MOMENTS OF INERTIA:  (KILOGRAM * MM^2)
+I1  I2  I3          2.6318730e-01  3.1961126e-01  5.7837974e-01
+
+      ROTATION MATRIX from _SPRACINGF3_COVER orientation to PRINCIPAL AXES:
+                       0.02979       -0.99956       -0.00118
+                       0.99956        0.02979        0.00036
+                      -0.00033       -0.00119        1.00000
+
+ ROTATION ANGLES from _SPRACINGF3_COVER orientation to PRINCIPAL AXES (degrees):
+angles about x  y  z    0.000         -0.068         88.293 
+
+                RADII OF GYRATION with respect to PRINCIPAL AXES:
+R1  R2  R3          1.2353155e+01  1.3613082e+01  1.8312683e+01  MM
+

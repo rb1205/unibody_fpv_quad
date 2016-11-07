@@ -1,9 +1,9 @@
 ﻿                        MASS PROPERTIES OF THE PART BATT
 
-                         VOLUME =  2.1420000e+05 MM^3
-                   SURFACE AREA =  2.4910000e+04 MM^2
+                         VOLUME =  2.0475000e+05 MM^3
+                   SURFACE AREA =  2.3950000e+04 MM^2
                         DENSITY =  1.9500000e-06 KILOGRAM / MM^3
-                           MASS =  4.1769000e-01 KILOGRAM 
+                           MASS =  3.9926250e-01 KILOGRAM 
 
             CENTER OF GRAVITY with respect to _BATT coordinate frame:
 X   Y   Z           1.7500000e+01  0.0000000e+00  0.0000000e+00  MM
@@ -11,19 +11,19 @@ X   Y   Z           1.7500000e+01  0.0000000e+00  0.0000000e+00  MM
        INERTIA with respect to _BATT coordinate frame:  (KILOGRAM * MM^2)
 
 INERTIA TENSOR:
-Ixx Ixy Ixz         7.1428471e+02  0.0000000e+00  0.0000000e+00
-Iyx Iyy Iyz         0.0000000e+00  2.4104194e+02  0.0000000e+00
-Izx Izy Izz         0.0000000e+00  0.0000000e+00  8.1435627e+02
+Ixx Ixy Ixz         6.2967023e+02  0.0000000e+00  0.0000000e+00
+Iyx Iyy Iyz         0.0000000e+00  2.3040773e+02  0.0000000e+00
+Izx Izy Izz         0.0000000e+00  0.0000000e+00  7.2532687e+02
 
       INERTIA at CENTER OF GRAVITY with respect to _BATT coordinate frame:
                                                          (KILOGRAM * MM^2)      
 INERTIA TENSOR:
-Ixx Ixy Ixz         7.1428471e+02  0.0000000e+00  0.0000000e+00
-Iyx Iyy Iyz         0.0000000e+00  1.1312438e+02  0.0000000e+00
-Izx Izy Izz         0.0000000e+00  0.0000000e+00  6.8643871e+02
+Ixx Ixy Ixz         6.2967023e+02  0.0000000e+00  0.0000000e+00
+Iyx Iyy Iyz         0.0000000e+00  1.0813359e+02  0.0000000e+00
+Izx Izy Izz         0.0000000e+00  0.0000000e+00  6.0305273e+02
 
                 PRINCIPAL MOMENTS OF INERTIA:  (KILOGRAM * MM^2)
-I1  I2  I3          1.1312438e+02  6.8643871e+02  7.1428471e+02
+I1  I2  I3          1.0813359e+02  6.0305273e+02  6.2967023e+02
 
             ROTATION MATRIX from _BATT orientation to PRINCIPAL AXES:
                        0.00000        0.00000        1.00000
@@ -34,5 +34,5 @@ I1  I2  I3          1.1312438e+02  6.8643871e+02  7.1428471e+02
 angles about x  y  z    0.000         90.000         90.000 
 
                 RADII OF GYRATION with respect to PRINCIPAL AXES:
-R1  R2  R3          1.6457015e+01  4.0539076e+01  4.1353154e+01  MM
+R1  R2  R3          1.6457015e+01  3.8864079e+01  3.9712509e+01  MM
 

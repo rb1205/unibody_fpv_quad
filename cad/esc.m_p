@@ -1,29 +1,29 @@
 ﻿                         MASS PROPERTIES OF THE PART ESC
 
-                         VOLUME =  2.4450796e+04 MM^3
-                   SURFACE AREA =  6.9223185e+03 MM^2
-                        DENSITY =  2.5000000e-06 KILOGRAM / MM^3
-                           MASS =  6.1126991e-02 KILOGRAM 
+                         VOLUME =  3.4991150e+03 MM^3
+                   SURFACE AREA =  2.4333609e+03 MM^2
+                        DENSITY =  3.0000000e-06 KILOGRAM / MM^3
+                           MASS =  1.0497345e-02 KILOGRAM 
 
             CENTER OF GRAVITY with respect to _ESC coordinate frame:
-X   Y   Z          -2.4091184e+00  5.5000000e+00  0.0000000e+00  MM
+X   Y   Z          -6.4643396e-02  2.0000000e+00  0.0000000e+00  MM
 
         INERTIA with respect to _ESC coordinate frame:  (KILOGRAM * MM^2)
 
 INERTIA TENSOR:
-Ixx Ixy Ixz         7.7487128e+00  8.0994186e-01  0.0000000e+00
-Iyx Iyy Iyz         8.0994186e-01  3.0992534e+01  0.0000000e+00
-Izx Izy Izz         0.0000000e+00  0.0000000e+00  2.8144624e+01
+Ixx Ixy Ixz         2.9315803e-01  1.3571680e-03  0.0000000e+00
+Iyx Iyy Iyz         1.3571680e-03  2.7399195e+00  0.0000000e+00
+Izx Izy Izz         0.0000000e+00  0.0000000e+00  2.5644128e+00
 
        INERTIA at CENTER OF GRAVITY with respect to _ESC coordinate frame:
                                                         (KILOGRAM * MM^2)       
 INERTIA TENSOR:
-Ixx Ixy Ixz         5.8996214e+00  0.0000000e+00  0.0000000e+00
-Iyx Iyy Iyz         0.0000000e+00  3.0637762e+01  0.0000000e+00
-Izx Izy Izz         0.0000000e+00  0.0000000e+00  2.5940761e+01
+Ixx Ixy Ixz         2.5116865e-01  0.0000000e+00  0.0000000e+00
+Iyx Iyy Iyz         0.0000000e+00  2.7398756e+00  0.0000000e+00
+Izx Izy Izz         0.0000000e+00  0.0000000e+00  2.5223796e+00
 
                 PRINCIPAL MOMENTS OF INERTIA:  (KILOGRAM * MM^2)
-I1  I2  I3          5.8996214e+00  2.5940761e+01  3.0637762e+01
+I1  I2  I3          2.5116865e-01  2.5223796e+00  2.7398756e+00
 
             ROTATION MATRIX from _ESC orientation to PRINCIPAL AXES:
                        1.00000        0.00000        0.00000
@@ -34,5 +34,5 @@ I1  I2  I3          5.8996214e+00  2.5940761e+01  3.0637762e+01
 angles about x  y  z   90.000          0.000          0.000 
 
                 RADII OF GYRATION with respect to PRINCIPAL AXES:
-R1  R2  R3          9.8241630e+00  2.0600362e+01  2.2387830e+01  MM
+R1  R2  R3          4.8915104e+00  1.5501206e+01  1.6155697e+01  MM
 

@@ -1,0 +1,38 @@
+﻿                       MASS PROPERTIES OF THE PART L_GEAR
+
+                         VOLUME =  4.3737040e+03 MM^3
+                   SURFACE AREA =  3.4399069e+03 MM^2
+                        DENSITY =  1.0000000e-06 KILOGRAM / MM^3
+                           MASS =  4.3737040e-03 KILOGRAM 
+
+           CENTER OF GRAVITY with respect to _L_GEAR coordinate frame:
+X   Y   Z           0.0000000e+00  2.5849030e+01 -2.9182583e+01  MM
+
+      INERTIA with respect to _L_GEAR coordinate frame:  (KILOGRAM * MM^2)
+
+INERTIA TENSOR:
+Ixx Ixy Ixz         8.8756471e+00  0.0000000e+00  0.0000000e+00
+Iyx Iyy Iyz         0.0000000e+00  4.8814228e+00  4.2943928e+00
+Izx Izy Izz         0.0000000e+00  4.2943928e+00  4.1782521e+00
+
+     INERTIA at CENTER OF GRAVITY with respect to _L_GEAR coordinate frame:
+                                                          (KILOGRAM * MM^2)     
+INERTIA TENSOR:
+Ixx Ixy Ixz         2.2285115e+00  0.0000000e+00  0.0000000e+00
+Iyx Iyy Iyz         0.0000000e+00  1.1566752e+00  9.9512655e-01
+Izx Izy Izz         0.0000000e+00  9.9512655e-01  1.2558641e+00
+
+                PRINCIPAL MOMENTS OF INERTIA:  (KILOGRAM * MM^2)
+I1  I2  I3          2.0990803e-01  2.2026313e+00  2.2285115e+00
+
+           ROTATION MATRIX from _L_GEAR orientation to PRINCIPAL AXES:
+                       0.00000        0.00000        1.00000
+                       0.72449        0.68928        0.00000
+                      -0.68928        0.72449        0.00000
+
+      ROTATION ANGLES from _L_GEAR orientation to PRINCIPAL AXES (degrees):
+angles about x  y  z    0.000         90.000         46.427 
+
+                RADII OF GYRATION with respect to PRINCIPAL AXES:
+R1  R2  R3          6.9277121e+00  2.2441207e+01  2.2572660e+01  MM
+
