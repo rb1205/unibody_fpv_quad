@@ -13,8 +13,8 @@ A size class 400 FPV quadcopter assembled over a single piece FDM printable body
 
 ## Stats
 
-* Typical flight time is 16-18 minutes with a 4000 mAh 4s battery. 
-* Weight is 250g for the frame alone, ~800g for the assembled quad without battery and ~1200g with a 4000 mAh 4s lipo battery
+* Typical flight time is ~20 minutes with a 4000 mAh 4s battery. 
+* Weight is 200g for the frame alone, ~700g for the assembled quad without battery and ~1100g with a 4000 mAh 4s lipo battery
 * Inertia moments around CoG are around 1, 1 and 2 Kg/dm^2 (pitch,roll,yaw)
 * Battery bay size=50x38x120 mm
 
