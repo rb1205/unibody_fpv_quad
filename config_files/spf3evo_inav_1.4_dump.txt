@@ -1,7 +1,5 @@
-# dump
-
 # version
-# INAV/SPRACINGF3EVO 1.3.0 Nov  5 2016 / 10:57:28 (2d1e4da)
+# INAV/SPRACINGF3EVO 1.4.0 Dec 13 2016 / 11:18:54 (5ad6fc8)
 # pflags
 # Persistent config flags: 0x00000001
 # dump master
@@ -30,7 +28,7 @@ feature -RX_PARALLEL_PWM
 feature -RX_MSP
 feature -RSSI_ADC
 feature -LED_STRIP
-feature -DISPLAY
+feature -DASHBOARD
 feature -UNUSED_2
 feature -BLACKBOX
 feature -CHANNEL_FORWARDING
@@ -41,6 +39,7 @@ feature -VTX
 feature -RX_SPI
 feature -SOFTSPI
 feature -PWM_SERVO_DRIVER
+feature -PWM_OUTPUT_ENABLE
 feature RX_SERIAL
 feature SOFTSERIAL
 feature GPS
@@ -49,6 +48,7 @@ feature TELEMETRY
 feature CURRENT_METER
 feature LED_STRIP
 feature BLACKBOX
+feature PWM_OUTPUT_ENABLE
 
 
 # beeper
@@ -70,6 +70,7 @@ beeper DISARM_REPEAT
 beeper ARMED
 beeper SYSTEM_INIT
 beeper ON_USB
+beeper LAUNCH_MODE
 
 
 # map
@@ -77,7 +78,7 @@ map AETR1234
 
 
 # serial
-serial 20 0 115200 38400 0 115200
+serial 20 1 115200 38400 0 115200
 serial 0 2 115200 38400 0 115200
 serial 1 64 115200 38400 0 115200
 serial 2 32 115200 38400 0 115200
@@ -86,12 +87,12 @@ serial 31 1 19200 38400 0 115200
 
 
 # led
-led 0 0,0::G:10
-led 1 1,0::AOW:0
-led 2 2,0::AOW:0
-led 3 3,0::AOW:0
-led 4 4,0::AOW:0
-led 5 5,0::G:10
+led 0 0,0:W:G:10
+led 1 1,0::AW:6
+led 2 2,0:N:AW:6
+led 3 3,0:N:AW:6
+led 4 4,0::AW:6
+led 5 5,0:E:G:10
 led 6 0,0::C:0
 led 7 0,0::C:0
 led 8 0,0::C:0
@@ -176,8 +177,8 @@ mode_color 5 2 2
 mode_color 5 3 13
 mode_color 5 4 10
 mode_color 5 5 3
-mode_color 6 0 6
-mode_color 6 1 10
+mode_color 6 0 14
+mode_color 6 1 6
 mode_color 6 2 1
 mode_color 6 3 0
 mode_color 6 4 0
@@ -188,10 +189,13 @@ mode_color 6 8 0
 mode_color 6 9 0
 mode_color 6 10 0
 
-set looptime = 2000
+set looptime = 1000
 set i2c_overclock = OFF
 set gyro_sync = ON
 set gyro_sync_denom = 1
+set acc_task_frequency = 500
+set attitude_task_frequency = 250
+set async_mode = NONE
 set mid_rc = 1500
 set min_check = 1100
 set max_check = 1900
@@ -200,15 +204,15 @@ set rssi_scale = 30
 set rssi_ppm_invert = OFF
 set rc_smoothing = ON
 set input_filtering_mode = OFF
-set min_throttle = 1120
+set min_throttle = 1150
 set max_throttle = 1850
 set min_command = 1000
 set 3d_deadband_low = 1406
 set 3d_deadband_high = 1514
 set 3d_neutral = 1460
 set 3d_deadband_throttle = 1000
-set motor_pwm_rate = 490
-set motor_pwm_protocol = STANDARD
+set motor_pwm_rate = 1000
+set motor_pwm_protocol = ONESHOT125
 set fixed_wing_auto_arm = OFF
 set disarm_kill_switch = ON
 set auto_disarm_delay = 5
@@ -240,13 +244,13 @@ set nav_extra_arming_safety = OFF
 set nav_user_control_mode = CRUISE
 set nav_position_timeout = 5
 set nav_wp_radius = 100
-set nav_max_speed = 300
+set nav_max_speed = 500
 set nav_max_climb_rate = 500
 set nav_manual_speed = 500
 set nav_manual_climb_rate = 300
 set nav_landing_speed = 200
 set nav_land_slowdown_minalt = 500
-set nav_land_slowdown_maxalt = 1500
+set nav_land_slowdown_maxalt = 1000
 set nav_emerg_landing_speed = 300
 set nav_min_rth_distance = 500
 set nav_rth_tail_first = OFF
@@ -264,6 +268,12 @@ set nav_fw_dive_angle = 15
 set nav_fw_pitch2thr = 10
 set nav_fw_roll2pitch = 75
 set nav_fw_loiter_radius = 5000
+set nav_fw_launch_accel = 1863
+set nav_fw_launch_detect_time = 40
+set nav_fw_launch_thr = 1700
+set nav_fw_launch_motor_delay = 500
+set naw_fw_launch_timeout = 5000
+set naw_fw_launch_climb_angle = 10
 set serialrx_provider = SBUS
 set spektrum_sat_bind = 0
 set telemetry_switch = OFF
@@ -273,7 +283,9 @@ set frsky_default_longitude =  0.000
 set frsky_coordinates_format = 0
 set frsky_unit = IMPERIAL
 set frsky_vfas_precision = 0
+set frsky_vfas_cell_voltage = OFF
 set hott_alarm_sound_interval = 5
+set smartport_uart_unidir = OFF
 set battery_capacity = 0
 set vbat_scale = 110
 set vbat_max_cell_voltage = 43
@@ -289,7 +301,7 @@ set align_mag = DEFAULT
 set align_board_roll = 2
 set align_board_pitch = 0
 set align_board_yaw = 900
-set gyro_lpf = 42HZ
+set gyro_lpf = 98HZ
 set moron_threshold = 32
 set imu_dcm_kp = 2500
 set imu_dcm_ki = 50
@@ -341,11 +353,11 @@ rxfail 6 s 2000
 rxfail 7 s 1000
 rxfail 8 s 2000
 rxfail 9 h
-rxfail 10 h
+rxfail 10 s 1000
 rxfail 11 h
-rxfail 12 h
+rxfail 12 s 1000
 rxfail 13 h
-rxfail 14 h
+rxfail 14 s 1500
 rxfail 15 h
 rxfail 16 h
 rxfail 17 h
@@ -358,18 +370,18 @@ profile 0
 # aux
 aux 0 0 0 1400 2100
 aux 1 1 2 1400 2100
-aux 2 19 0 1900 2100
-aux 3 22 1 1400 1600
-aux 4 4 1 1900 2100
+aux 2 20 0 1900 2100
+aux 3 4 1 1300 2100
+aux 4 5 1 1800 2100
 aux 5 3 4 1400 2100
-aux 6 9 2 1900 2100
-aux 7 8 3 1900 2100
-aux 8 18 3 1400 1600
-aux 9 20 8 1900 2100
-aux 10 11 10 1600 2100
-aux 11 14 6 1600 2100
-aux 12 16 7 1600 2100
-aux 13 0 0 900 900
+aux 6 9 2 1800 2075
+aux 7 8 3 1800 2100
+aux 8 19 3 1350 1650
+aux 9 21 8 1800 2100
+aux 10 11 10 1800 2100
+aux 11 12 10 900 1400
+aux 12 15 6 1800 2100
+aux 13 17 7 1600 2100
 aux 14 0 0 900 900
 aux 15 0 0 900 900
 aux 16 0 0 900 900
@@ -437,9 +449,9 @@ set p_pitch = 38
 set i_pitch = 31
 set d_pitch = 48
 set p_roll = 34
-set i_roll = 16
+set i_roll = 20
 set d_roll = 50
-set p_yaw = 70
+set p_yaw = 55
 set i_yaw = 45
 set d_yaw = 0
 set p_level = 20
@@ -447,9 +459,9 @@ set i_level = 15
 set d_level = 75
 set max_angle_inclination_rll = 450
 set max_angle_inclination_pit = 450
-set gyro_soft_lpf_hz = 60
+set gyro_soft_lpf_hz = 40
 set acc_soft_lpf_hz = 15
-set dterm_lpf_hz = 40
+set dterm_lpf_hz = 30
 set yaw_lpf_hz = 30
 set yaw_p_limit = 300
 set iterm_ignore_threshold = 200
@@ -471,5 +483,4 @@ set pitch_rate = 36
 set yaw_rate = 26
 set tpa_rate = 0
 set tpa_breakpoint = 1500
-
 
