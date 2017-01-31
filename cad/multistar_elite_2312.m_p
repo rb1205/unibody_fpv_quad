@@ -1,0 +1,38 @@
+﻿                MASS PROPERTIES OF THE PART MULTISTAR_ELITE_2312
+
+                         VOLUME =  1.6089147e+04 MM^3
+                   SURFACE AREA =  4.5175060e+03 MM^2
+                        DENSITY =  3.4400000e-06 KILOGRAM / MM^3
+                           MASS =  5.5346667e-02 KILOGRAM 
+
+      CENTER OF GRAVITY with respect to _MULTISTAR_ELITE_ coordinate frame:
+X   Y   Z           1.0891234e+00  1.2836515e+01 -1.0891263e+00  MM
+
+ INERTIA with respect to _MULTISTAR_ELITE_ coordinate frame:  (KILOGRAM * MM^2)
+
+INERTIA TENSOR:
+Ixx Ixy Ixz         1.7373485e+01 -5.2670233e-02  2.0472513e+00
+Iyx Iyy Iyz        -5.2670233e-02  8.9184633e+00  5.2672596e-02
+Izx Izy Izz         2.0472513e+00  5.2672596e-02  1.7379557e+01
+
+INERTIA at CENTER OF GRAVITY with respect to _MULTISTAR_ELITE_ coordinate frame:
+                                                               (KILOGRAM * MM^2)
+INERTIA TENSOR:
+Ixx Ixy Ixz         8.1880231e+00  7.2110660e-01  1.9815995e+00
+Iyx Iyy Iyz         7.2110660e-01  8.7871597e+00 -7.2110629e-01
+Izx Izy Izz         1.9815995e+00 -7.2110629e-01  8.1940959e+00
+
+                PRINCIPAL MOMENTS OF INERTIA:  (KILOGRAM * MM^2)
+I1  I2  I3          5.8547987e+00  9.1418182e+00  1.0172662e+01
+
+      ROTATION MATRIX from _MULTISTAR_ELITE_ orientation to PRINCIPAL AXES:
+                       0.66834        0.23295        0.70644
+                      -0.32848        0.94451       -0.00070
+                      -0.66740       -0.23158        0.70777
+
+ ROTATION ANGLES from _MULTISTAR_ELITE_ orientation to PRINCIPAL AXES (degrees):
+angles about x  y  z    0.056         44.946        -19.216 
+
+                RADII OF GYRATION with respect to PRINCIPAL AXES:
+R1  R2  R3          1.0285141e+01  1.2851995e+01  1.3557249e+01  MM
+
