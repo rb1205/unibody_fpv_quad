@@ -1,0 +1,38 @@
+﻿                   MASS PROPERTIES OF THE PART PIASTRA_GIMBAL
+
+                         VOLUME =  1.4637150e+04 MM^3
+                   SURFACE AREA =  1.3365653e+04 MM^2
+                        DENSITY =  1.0000000e-06 KILOGRAM / MM^3
+                           MASS =  1.4637150e-02 KILOGRAM 
+
+       CENTER OF GRAVITY with respect to _PIASTRA_GIMBAL coordinate frame:
+X   Y   Z           2.4749133e+00  0.0000000e+00  0.0000000e+00  MM
+
+  INERTIA with respect to _PIASTRA_GIMBAL coordinate frame:  (KILOGRAM * MM^2)
+
+INERTIA TENSOR:
+Ixx Ixy Ixz         2.9991508e+01 -2.3927437e-06  3.1752889e-06
+Iyx Iyy Iyz        -2.3927437e-06  1.2713499e+01  4.0691256e-06
+Izx Izy Izz         3.1752889e-06  4.0691256e-06  1.7681139e+01
+
+ INERTIA at CENTER OF GRAVITY with respect to _PIASTRA_GIMBAL coordinate frame:
+                                                              (KILOGRAM * MM^2) 
+INERTIA TENSOR:
+Ixx Ixy Ixz         2.9991508e+01 -1.9717342e-06  2.5162157e-06
+Iyx Iyy Iyz        -1.9717342e-06  1.2623843e+01  4.0691225e-06
+Izx Izy Izz         2.5162157e-06  4.0691225e-06  1.7591483e+01
+
+                PRINCIPAL MOMENTS OF INERTIA:  (KILOGRAM * MM^2)
+I1  I2  I3          1.2623843e+01  1.7591483e+01  2.9991508e+01
+
+       ROTATION MATRIX from _PIASTRA_GIMBAL orientation to PRINCIPAL AXES:
+                       0.00000        0.00000        1.00000
+                       1.00000        0.00000        0.00000
+                       0.00000        1.00000        0.00000
+
+  ROTATION ANGLES from _PIASTRA_GIMBAL orientation to PRINCIPAL AXES (degrees):
+angles about x  y  z    0.000         90.000         90.000 
+
+                RADII OF GYRATION with respect to PRINCIPAL AXES:
+R1  R2  R3          2.9367538e+01  3.4667535e+01  4.5265872e+01  MM
+
