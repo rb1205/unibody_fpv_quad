@@ -191,10 +191,10 @@ mode_color 6 8 0
 mode_color 6 9 0
 mode_color 6 10 0
 
-set looptime = 500
+set looptime = 1000
 set i2c_overclock = OFF
 set gyro_sync = ON
-set gyro_sync_denom = 4
+set gyro_sync_denom = 1
 set acc_task_frequency = 500
 set attitude_task_frequency = 250
 set async_mode = NONE
@@ -213,7 +213,7 @@ set 3d_deadband_low = 1406
 set 3d_deadband_high = 1514
 set 3d_neutral = 1460
 set 3d_deadband_throttle = 1000
-set motor_pwm_rate = 2000
+set motor_pwm_rate = 1000
 set motor_pwm_protocol = ONESHOT125
 set fixed_wing_auto_arm = OFF
 set disarm_kill_switch = ON
@@ -222,7 +222,7 @@ set small_angle = 25
 set reboot_character = 82
 set gps_provider = UBLOX
 set gps_sbas_mode = EGNOS
-set gps_dyn_model = AIR_1G
+set gps_dyn_model = AIR_4G
 set gps_auto_config = ON
 set gps_auto_baud = ON
 set inav_auto_mag_decl = ON
@@ -302,10 +302,10 @@ set current_meter_type = VIRTUAL
 set align_gyro = DEFAULT
 set align_acc = DEFAULT
 set align_mag = DEFAULT
-set align_board_roll = 2
-set align_board_pitch = 0
+set align_board_roll = 4
+set align_board_pitch = -32
 set align_board_yaw = 900
-set gyro_lpf = 256HZ
+set gyro_lpf = 42HZ
 set moron_threshold = 32
 set imu_dcm_kp = 2500
 set imu_dcm_ki = 50
@@ -376,8 +376,8 @@ profile 0
 aux 0 0 0 1400 2100
 aux 1 1 2 1400 2100
 aux 2 20 0 1900 2100
-aux 3 4 1 1300 2100
-aux 4 5 1 1800 2100
+aux 3 23 1 1400 1600
+aux 4 4 1 1900 2100
 aux 5 3 4 1400 2100
 aux 6 9 2 1800 2075
 aux 7 8 3 1800 2100
@@ -386,7 +386,7 @@ aux 9 21 8 1800 2100
 aux 10 11 10 1800 2100
 aux 11 12 10 900 1400
 aux 12 15 6 1800 2100
-aux 13 17 7 1600 2100
+aux 13 0 0 900 900
 aux 14 0 0 900 900
 aux 15 0 0 900 900
 aux 16 0 0 900 900
@@ -464,7 +464,7 @@ set i_level = 15
 set d_level = 75
 set max_angle_inclination_rll = 450
 set max_angle_inclination_pit = 450
-set gyro_soft_lpf_hz = 40
+set gyro_soft_lpf_hz = 36
 set acc_soft_lpf_hz = 15
 set dterm_lpf_hz = 30
 set yaw_lpf_hz = 30
@@ -472,7 +472,7 @@ set yaw_p_limit = 300
 set iterm_ignore_threshold = 200
 set yaw_iterm_ignore_threshold = 50
 set rate_accel_limit_roll_pitch = 5000
-set rate_accel_limit_yaw = 5000
+set rate_accel_limit_yaw = 3000
 
 # dump rates
 
