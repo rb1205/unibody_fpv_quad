@@ -1,3 +1,4 @@
+
 # version
 # INAV/SPRACINGF3EVO 1.6.1 Mar  9 2017 / 00:48:57 (6c878ae)
 
@@ -50,6 +51,7 @@ feature -SOFTSPI
 feature -PWM_SERVO_DRIVER
 feature -PWM_OUTPUT_ENABLE
 feature -OSD
+feature VBAT
 feature RX_SERIAL
 feature SOFTSERIAL
 feature GPS
@@ -94,12 +96,12 @@ serial 30 1 19200 38400 0 115200
 serial 31 1 19200 38400 0 115200
 
 # led
-led 0 0,0::G:10
+led 0 0,0::AOW:10
 led 1 1,0::AOW:1
 led 2 2,0::AOW:1
 led 3 3,0::AOW:1
 led 4 4,0::AOW:1
-led 5 5,0::G:10
+led 5 5,0::AOW:10
 led 6 0,0::C:0
 led 7 0,0::C:0
 led 8 0,0::C:0
@@ -195,20 +197,20 @@ mode_color 6 9 0
 mode_color 6 10 0
 
 # aux
-aux 0 0 0 1600 2100
-aux 1 1 2 1400 2100
-aux 2 20 0 1900 2100
-aux 3 23 1 1400 1600
-aux 4 4 1 1900 2100
-aux 5 3 4 1400 2100
-aux 6 9 2 1800 2075
-aux 7 8 3 1800 2100
-aux 8 19 3 1350 1650
-aux 9 21 8 1800 2100
-aux 10 11 10 1800 2100
-aux 11 12 10 900 1400
-aux 12 15 6 1800 2100
-aux 13 0 0 900 900
+aux 0 0 0 1350 2100
+aux 1 1 2 1800 2100
+aux 2 2 2 1350 1650
+aux 3 20 0 1800 2100
+aux 4 5 1 1350 2100
+aux 5 6 8 900 1200
+aux 6 3 4 1350 2100
+aux 7 9 4 1800 2100
+aux 8 8 3 1800 2100
+aux 9 19 3 1350 1650
+aux 10 21 8 1800 2100
+aux 11 11 10 1800 2100
+aux 12 12 10 900 1200
+aux 13 15 6 1800 2100
 aux 14 0 0 900 900
 aux 15 0 0 900 900
 aux 16 0 0 900 900
@@ -241,29 +243,29 @@ set looptime = 1000
 set gyro_sync = ON
 set gyro_sync_denom = 1
 set align_gyro = DEFAULT
-set gyro_hardware_lpf = 98HZ
-set gyro_lpf_hz = 70
+set gyro_hardware_lpf = 42HZ
+set gyro_lpf_hz = 40
 set moron_threshold = 32
-set gyro_notch1_hz = 115
-set gyro_notch1_cutoff = 80
-set gyro_notch2_hz = 85
-set gyro_notch2_cutoff = 43
+set gyro_notch1_hz = 160
+set gyro_notch1_cutoff = 120
+set gyro_notch2_hz = 0
+set gyro_notch2_cutoff = 60
 set align_acc = DEFAULT
 set acc_hardware = MPU6500
 set acc_lpf_hz = 15
-set acczero_x = 536
-set acczero_y = 111
-set acczero_z = -404
-set accgain_x = 4098
-set accgain_y = 4090
-set accgain_z = 4049
+set acczero_x = 557
+set acczero_y = 127
+set acczero_z = -442
+set accgain_x = 4096
+set accgain_y = 4084
+set accgain_z = 4042
 set rangefinder_hardware = NONE
 set align_mag = DEFAULT
 set mag_hardware = AK8963
 set mag_declination = 0
-set magzero_x = 9
-set magzero_y = 30
-set magzero_z = -75
+set magzero_x = 13
+set magzero_y = -20
+set magzero_z = -139
 set mag_hold_rate_limit = 30
 set mag_calibration_time = 30
 set baro_hardware = BMP280
@@ -286,7 +288,7 @@ set blackbox_rate_denom = 1
 set blackbox_device = SDCARD
 set min_throttle = 1050
 set max_throttle = 1850
-set min_command = 950
+set min_command = 940
 set motor_pwm_rate = 1000
 set motor_pwm_protocol = ONESHOT125
 set failsafe_delay = 5
@@ -301,15 +303,15 @@ set failsafe_fw_roll_angle = -200
 set failsafe_fw_pitch_angle = 100
 set failsafe_fw_yaw_rate = -45
 set align_board_roll = 0
-set align_board_pitch = 0
+set align_board_pitch = -4
 set align_board_yaw = 900
 set gimbal_mode = NORMAL
-set battery_capacity = 0
-set vbat_scale = 110
+set battery_capacity = 3300
+set vbat_scale = 107
 set vbat_max_cell_voltage = 43
 set vbat_min_cell_voltage = 33
 set vbat_warning_cell_voltage = 35
-set current_meter_scale = 287
+set current_meter_scale = 450
 set current_meter_offset = 64
 set multiwii_current_meter_output = OFF
 set current_meter_type = VIRTUAL
@@ -339,8 +341,8 @@ set gps_dyn_model = AIR_4G
 set gps_auto_config = ON
 set gps_auto_baud = ON
 set gps_min_sats = 6
-set deadband = 5
-set yaw_deadband = 5
+set deadband = 3
+set yaw_deadband = 3
 set pos_hold_deadband = 20
 set alt_hold_deadband = 50
 set 3d_deadband_throttle = 50
@@ -362,7 +364,7 @@ set inav_baro_epv =  100.000
 set nav_disarm_on_landing = ON
 set nav_use_midthr_for_althold = ON
 set nav_extra_arming_safety = OFF
-set nav_user_control_mode = CRUISE
+set nav_user_control_mode = ATTI
 set nav_position_timeout = 5
 set nav_wp_radius = 100
 set nav_wp_safe_distance = 10000
@@ -383,7 +385,7 @@ set nav_rth_alt_mode = AT_LEAST
 set nav_rth_abort_threshold = 50000
 set nav_rth_altitude = 1500
 set nav_mc_bank_angle = 45
-set nav_mc_hover_thr = 1450
+set nav_mc_hover_thr = 1400
 set nav_mc_auto_disarm_delay = 1000
 set nav_fw_cruise_thr = 1400
 set nav_fw_min_thr = 1200
@@ -429,13 +431,13 @@ profile 1
 
 set mc_p_pitch = 38
 set mc_i_pitch = 31
-set mc_d_pitch = 48
+set mc_d_pitch = 55
 set mc_p_roll = 34
 set mc_i_roll = 20
 set mc_d_roll = 50
 set mc_p_yaw = 55
-set mc_i_yaw = 45
-set mc_d_yaw = 0
+set mc_i_yaw = 30
+set mc_d_yaw = 30
 set mc_p_level = 20
 set mc_i_level = 15
 set mc_d_level = 75
@@ -457,14 +459,14 @@ set dterm_lpf_hz = 40
 set yaw_lpf_hz = 30
 set dterm_setpoint_weight =  0.000
 set fw_iterm_throw_limit = 165
-set dterm_notch_hz = 105
-set dterm_notch_cutoff = 90
+set dterm_notch_hz = 160
+set dterm_notch_cutoff = 105
 set pidsum_limit = 500
 set yaw_p_limit = 300
 set iterm_ignore_threshold = 200
 set yaw_iterm_ignore_threshold = 50
 set rate_accel_limit_roll_pitch = 2000
-set rate_accel_limit_yaw = 1500
+set rate_accel_limit_yaw = 2000
 set nav_mc_pos_z_p = 50
 set nav_mc_pos_z_i = 0
 set nav_mc_pos_z_d = 0
@@ -490,6 +492,5 @@ set thr_expo = 0
 set roll_rate = 36
 set pitch_rate = 36
 set yaw_rate = 26
-set tpa_rate = 0
-set tpa_breakpoint = 1500
-
+set tpa_rate = 30
+set tpa_breakpoint = 1600
