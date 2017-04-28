@@ -9,35 +9,35 @@ currently not in session.  Mass properties may be inconsistent.
                            MASS =  1.1552643e+00 KILOGRAM 
 
           CENTER OF GRAVITY with respect to _UNIBODY coordinate frame:
-X   Y   Z           2.3946735e+01 -3.7082170e-01 -1.1430215e+00  MM
+X   Y   Z           2.3903717e+01 -3.7082170e-01 -1.1430215e+00  MM
 
       INERTIA with respect to _UNIBODY coordinate frame:  (KILOGRAM * MM^2)
 
 INERTIA TENSOR:
-Ixx Ixy Ixz         1.5657567e+04 -1.1619954e+02  9.3573537e+01
-Iyx Iyy Iyz        -1.1619954e+02  8.6876110e+03  1.1660947e+01
-Izx Izy Izz         9.3573537e+01  1.1660947e+01  9.3135963e+03
+Ixx Ixy Ixz         1.5657567e+04 -1.1619988e+02  9.3573040e+01
+Iyx Iyy Iyz        -1.1619988e+02  8.6827026e+03  1.1660947e+01
+Izx Izy Izz         9.3573040e+01  1.1660947e+01  9.3086879e+03
 
      INERTIA at CENTER OF GRAVITY with respect to _UNIBODY coordinate frame:
                                                           (KILOGRAM * MM^2)     
 INERTIA TENSOR:
-Ixx Ixy Ixz         1.5655898e+04 -1.2645825e+02  6.1952065e+01
-Iyx Iyy Iyz        -1.2645825e+02  8.0236198e+03  1.2150614e+01
-Izx Izy Izz         6.1952065e+01  1.2150614e+01  8.6509556e+03
+Ixx Ixy Ixz         1.5655898e+04 -1.2644016e+02  6.2008373e+01
+Iyx Iyy Iyz        -1.2644016e+02  8.0210894e+03  1.2150614e+01
+Izx Izy Izz         6.2008373e+01  1.2150614e+01  8.6484252e+03
 
                 PRINCIPAL MOMENTS OF INERTIA:  (KILOGRAM * MM^2)
-I1  I2  I3          8.0212492e+03  8.6506875e+03  1.5658537e+04
+I1  I2  I3          8.0187201e+03  8.6481563e+03  1.5658537e+04
 
           ROTATION MATRIX from _UNIBODY orientation to PRINCIPAL AXES:
-                       0.01673       -0.00846        0.99982
-                       0.99964        0.02108       -0.01655
-                      -0.02093        0.99974        0.00881
+                       0.01672       -0.00847        0.99982
+                       0.99964        0.02108       -0.01654
+                      -0.02094        0.99974        0.00882
 
      ROTATION ANGLES from _UNIBODY orientation to PRINCIPAL AXES (degrees):
-angles about x  y  z   61.966         88.926         26.831 
+angles about x  y  z   61.941         88.926         26.855 
 
                 RADII OF GYRATION with respect to PRINCIPAL AXES:
-R1  R2  R3          8.3325960e+01  8.6533572e+01  1.1642196e+02  MM
+R1  R2  R3          8.3312823e+01  8.6520912e+01  1.1642196e+02  MM
 
 
 
@@ -66,7 +66,7 @@ R1  R2  R3          8.3325960e+01  8.6533572e+01  1.1642196e+02  MM
     RX                               POLIETILENE
          1.04000e-06  5.61600e-03  2.82500e+01  1.64138e+01  3.00000e+01
     FC                               UNKNOWN
-         7.85000e-06  1.98421e-02  4.98000e+01  0.00000e+00  0.00000e+00
+         7.85000e-06  1.98421e-02  4.78000e+01  0.00000e+00  0.00000e+00
     BATT                             UNKNOWN
          1.95000e-06  3.68550e-01  2.11000e+01 -2.26435e+01  0.00000e+00
     ESC                              UNKNOWN
@@ -172,12 +172,12 @@ R1  R2  R3          8.3325960e+01  8.6533572e+01  1.1642196e+02  MM
     GPS                              UNKNOWN
          1.27500e-06  9.99600e-03  5.18000e+01 -3.65565e+01  0.00000e+00
     SPRACINGF3_COVER                 POLIETILENE
-         1.00000e-06  1.72468e-03  5.26509e+01 -1.00453e-01 -1.43998e-01
+         1.00000e-06  1.72468e-03  5.06509e+01 -1.00453e-01 -1.43998e-01
     V3-8--_-_U7687_PZ                UNKNOWN
-         7.85000e-06  8.20453e-04  5.27164e+01  1.52500e+01  1.52500e+01
+         7.85000e-06  8.20453e-04  5.07164e+01  1.52500e+01  1.52500e+01
     V3-8--_-_U7687_PZ                UNKNOWN
-         7.85000e-06  8.20453e-04  5.27164e+01  1.52500e+01 -1.52500e+01
+         7.85000e-06  8.20453e-04  5.07164e+01  1.52500e+01 -1.52500e+01
     V3-8--_-_U7687_PZ                UNKNOWN
-         7.85000e-06  8.20453e-04  5.27164e+01 -1.52500e+01  1.52500e+01
+         7.85000e-06  8.20453e-04  5.07164e+01 -1.52500e+01  1.52500e+01
     V3-8--_-_U7687_PZ                UNKNOWN
-         7.85000e-06  8.20453e-04  5.27164e+01 -1.52500e+01 -1.52500e+01
+         7.85000e-06  8.20453e-04  5.07164e+01 -1.52500e+01 -1.52500e+01
