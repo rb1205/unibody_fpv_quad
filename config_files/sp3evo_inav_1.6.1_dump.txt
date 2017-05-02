@@ -1,4 +1,3 @@
-
 # version
 # INAV/SPRACINGF3EVO 1.6.1 Mar  9 2017 / 00:48:57 (6c878ae)
 
@@ -59,7 +58,6 @@ feature TELEMETRY
 feature CURRENT_METER
 feature LED_STRIP
 feature BLACKBOX
-feature TRANSPONDER
 feature PWM_OUTPUT_ENABLE
 
 # beeper
@@ -185,7 +183,7 @@ mode_color 5 3 13
 mode_color 5 4 10
 mode_color 5 5 3
 mode_color 6 0 6
-mode_color 6 1 10
+mode_color 6 1 2
 mode_color 6 2 1
 mode_color 6 3 0
 mode_color 6 4 0
@@ -244,7 +242,7 @@ set gyro_sync = ON
 set gyro_sync_denom = 1
 set align_gyro = DEFAULT
 set gyro_hardware_lpf = 42HZ
-set gyro_lpf_hz = 40
+set gyro_lpf_hz = 60
 set moron_threshold = 32
 set gyro_notch1_hz = 160
 set gyro_notch1_cutoff = 120
@@ -295,10 +293,10 @@ set failsafe_delay = 5
 set failsafe_recovery_delay = 5
 set failsafe_off_delay = 200
 set failsafe_kill_switch = OFF
-set failsafe_throttle = 1000
+set failsafe_throttle = 1300
 set failsafe_throttle_low_delay = 100
 set failsafe_procedure = RTH
-set failsafe_stick_threshold = 0
+set failsafe_stick_threshold = 50
 set failsafe_fw_roll_angle = -200
 set failsafe_fw_pitch_angle = 100
 set failsafe_fw_yaw_rate = -45
@@ -309,9 +307,9 @@ set gimbal_mode = NORMAL
 set battery_capacity = 3300
 set vbat_scale = 107
 set vbat_max_cell_voltage = 43
-set vbat_min_cell_voltage = 33
-set vbat_warning_cell_voltage = 35
-set current_meter_scale = 450
+set vbat_min_cell_voltage = 35
+set vbat_warning_cell_voltage = 36
+set current_meter_scale = 448
 set current_meter_offset = 64
 set multiwii_current_meter_output = OFF
 set current_meter_type = VIRTUAL
@@ -348,9 +346,9 @@ set alt_hold_deadband = 50
 set 3d_deadband_throttle = 50
 set inav_auto_mag_decl = ON
 set inav_accz_unarmedcal = ON
-set inav_use_gps_velned = NONE
+set inav_use_gps_velned = ON
 set inav_gps_delay = 200
-set inav_reset_altitude = EACH_ARM
+set inav_reset_altitude = FIRST_ARM
 set inav_w_z_baro_p =  0.350
 set inav_w_z_gps_p =  0.200
 set inav_w_z_gps_v =  0.500
@@ -368,25 +366,25 @@ set nav_user_control_mode = ATTI
 set nav_position_timeout = 5
 set nav_wp_radius = 100
 set nav_wp_safe_distance = 10000
-set nav_max_speed = 500
-set nav_max_climb_rate = 500
+set nav_max_speed = 400
+set nav_max_climb_rate = 400
 set nav_manual_speed = 400
 set nav_manual_climb_rate = 200
 set nav_landing_speed = 200
 set nav_land_slowdown_minalt = 500
 set nav_land_slowdown_maxalt = 1500
-set nav_emerg_landing_speed = 500
+set nav_emerg_landing_speed = 300
 set nav_min_rth_distance = 500
 set nav_rth_climb_first = ON
 set nav_rth_climb_ignore_emerg = OFF
 set nav_rth_tail_first = OFF
 set nav_rth_allow_landing = ON
 set nav_rth_alt_mode = AT_LEAST
-set nav_rth_abort_threshold = 50000
+set nav_rth_abort_threshold = 10000
 set nav_rth_altitude = 1500
 set nav_mc_bank_angle = 45
 set nav_mc_hover_thr = 1400
-set nav_mc_auto_disarm_delay = 1000
+set nav_mc_auto_disarm_delay = 2000
 set nav_fw_cruise_thr = 1400
 set nav_fw_min_thr = 1200
 set nav_fw_max_thr = 1700
@@ -404,7 +402,7 @@ set nav_fw_launch_idle_thr = 1000
 set nav_fw_launch_motor_delay = 500
 set nav_fw_launch_spinup_time = 100
 set nav_fw_launch_timeout = 5000
-set nav_fw_launch_climb_angle = 10
+set nav_fw_launch_climb_angle = 18
 set telemetry_switch = OFF
 set telemetry_inversion = ON
 set frsky_default_lattitude =  0.000
@@ -416,13 +414,13 @@ set frsky_vfas_cell_voltage = OFF
 set hott_alarm_sound_interval = 5
 set smartport_uart_unidir = OFF
 set ibus_telemetry_type = 0
-set ledstrip_visual_beeper = OFF
+set ledstrip_visual_beeper = ON
 set i2c_overclock = OFF
 set debug_mode = NONE
 set acc_task_frequency = 500
 set attitude_task_frequency = 250
 set async_mode = NONE
-set throttle_tilt_comp_str = 0
+set throttle_tilt_comp_str = 30
 set input_filtering_mode = OFF
 set mode_range_logic_operator = OR
 
@@ -453,8 +451,8 @@ set fw_ff_yaw = 0
 set fw_p_level = 20
 set fw_i_level = 15
 set fw_d_level = 75
-set max_angle_inclination_rll = 300
-set max_angle_inclination_pit = 300
+set max_angle_inclination_rll = 450
+set max_angle_inclination_pit = 450
 set dterm_lpf_hz = 40
 set yaw_lpf_hz = 30
 set dterm_setpoint_weight =  0.000
