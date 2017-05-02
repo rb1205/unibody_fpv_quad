@@ -8,12 +8,12 @@
 
    Depth of loop is 3
 
-Feature number 23 (COMPONENT, id = 154) 
+Feature number 39 (COMPONENT, id = 154) 
   in model UNIBODY refers to:
 
-Feature number 48 (EXTRUDE_44, id = 29354) 
+Feature number 47 (EXTRUDE_44, id = 29354) 
   in model BODY refers to:
 
-Feature number 23 (COMPONENT, id = 154) 
+Feature number 39 (COMPONENT, id = 154) 
   in model UNIBODY - circle closed.
 
