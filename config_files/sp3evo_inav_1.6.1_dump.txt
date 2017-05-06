@@ -182,8 +182,8 @@ mode_color 5 2 2
 mode_color 5 3 13
 mode_color 5 4 10
 mode_color 5 5 3
-mode_color 6 0 6
-mode_color 6 1 2
+mode_color 6 0 2
+mode_color 6 1 6
 mode_color 6 2 1
 mode_color 6 3 0
 mode_color 6 4 0
@@ -308,7 +308,7 @@ set battery_capacity = 3300
 set vbat_scale = 107
 set vbat_max_cell_voltage = 43
 set vbat_min_cell_voltage = 35
-set vbat_warning_cell_voltage = 36
+set vbat_warning_cell_voltage = 35
 set current_meter_scale = 448
 set current_meter_offset = 64
 set multiwii_current_meter_output = OFF
@@ -405,7 +405,7 @@ set nav_fw_launch_timeout = 5000
 set nav_fw_launch_climb_angle = 18
 set telemetry_switch = OFF
 set telemetry_inversion = ON
-set frsky_default_lattitude =  0.000
+set frsky_default_latitude =  0.000
 set frsky_default_longitude =  0.000
 set frsky_coordinates_format = 0
 set frsky_unit = IMPERIAL
