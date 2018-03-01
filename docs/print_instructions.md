@@ -24,13 +24,13 @@ Make sure the slicer is not placing any support in the antenna passage!
 
 ### Landing gears
 
-Material: ABS (far better flexibility and shock resistance than PLA)
+Material: Carbon fiber loaded nylon or ABS
 
-You're free to print this part as you wish as long as the resulting part is completely solid. You'll need 4 of these.
+Print this part completely solid
 
 ### Camera Frame
 
-Material: PLA
+Material: Whatever
 
 You're free to print this part as you wish as long as the resulting part is completely solid.
 
