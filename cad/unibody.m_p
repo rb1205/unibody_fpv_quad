@@ -3,41 +3,41 @@ currently not in session.  Mass properties may be inconsistent.
 
                      MASS PROPERTIES OF THE ASSEMBLY UNIBODY
 
-                         VOLUME =  6.2800529e+05 MM^3
-                   SURFACE AREA =  2.4984554e+05 MM^2
-                AVERAGE DENSITY =  1.8591455e-06 KILOGRAM / MM^3
-                           MASS =  1.1675532e+00 KILOGRAM 
+                         VOLUME =  6.2289266e+05 MM^3
+                   SURFACE AREA =  2.4634993e+05 MM^2
+                AVERAGE DENSITY =  1.8573593e-06 KILOGRAM / MM^3
+                           MASS =  1.1569355e+00 KILOGRAM 
 
           CENTER OF GRAVITY with respect to _UNIBODY coordinate frame:
-X   Y   Z           2.3836368e+01 -8.7026355e-01 -1.1370277e+00  MM
+X   Y   Z           2.3397725e+01  2.1803179e+00 -9.8911994e-01  MM
 
       INERTIA with respect to _UNIBODY coordinate frame:  (KILOGRAM * MM^2)
 
 INERTIA TENSOR:
-Ixx Ixy Ixz         1.5814379e+04 -1.1572274e+02  9.3695202e+01
-Iyx Iyy Iyz        -1.1572274e+02  8.7546604e+03  1.5727981e+01
-Izx Izy Izz         9.3695202e+01  1.5727981e+01  9.4102510e+03
+Ixx Ixy Ixz         1.5540236e+04 -1.6777071e+02  6.7179119e+01
+Iyx Iyy Iyz        -1.6777071e+02  8.5425946e+03  1.0230821e+01
+Izx Izy Izz         6.7179119e+01  1.0230821e+01  9.0940669e+03
 
      INERTIA at CENTER OF GRAVITY with respect to _UNIBODY coordinate frame:
                                                           (KILOGRAM * MM^2)     
 INERTIA TENSOR:
-Ixx Ixy Ixz         1.5811986e+04 -1.3994237e+02  6.2051461e+01
-Iyx Iyy Iyz        -1.3994237e+02  8.0897793e+03  1.6883291e+01
-Izx Izy Izz         6.2051461e+01  1.6883291e+01  8.7459952e+03
+Ixx Ixy Ixz         1.5533604e+04 -1.0875025e+02  4.0403980e+01
+Iyx Iyy Iyz        -1.0875025e+02  7.9080942e+03  7.7357791e+00
+Izx Izy Izz         4.0403980e+01  7.7357791e+00  8.4551987e+03
 
                 PRINCIPAL MOMENTS OF INERTIA:  (KILOGRAM * MM^2)
-I1  I2  I3          8.0867520e+03  8.7459481e+03  1.5815060e+04
+I1  I2  I3          7.9064177e+03  8.4550953e+03  1.5535384e+04
 
           ROTATION MATRIX from _UNIBODY orientation to PRINCIPAL AXES:
-                       0.01832       -0.00823        0.99980
-                       0.99946        0.02748       -0.01809
-                      -0.02732        0.99959        0.00873
+                       0.01434       -0.00547        0.99988
+                       0.99978        0.01523       -0.01425
+                      -0.01515        0.99987        0.00569
 
      ROTATION ANGLES from _UNIBODY orientation to PRINCIPAL AXES (degrees):
-angles about x  y  z   64.234         88.849         24.196 
+angles about x  y  z   68.233         89.121         20.897 
 
                 RADII OF GYRATION with respect to PRINCIPAL AXES:
-R1  R2  R3          8.3224026e+01  8.6549608e+01  1.1638502e+02  MM
+R1  R2  R3          8.2667595e+01  8.5487906e+01  1.1587945e+02  MM
 
 
 
@@ -48,38 +48,38 @@ R1  R2  R3          8.3224026e+01  8.6549608e+01  1.1638502e+02  MM
            DENSITY        MASS       C.G.:  X        Y         Z
 
     BODY                             POLIETILENE
-         1.30000e-06  3.04456e-01  1.38604e+01 -7.43803e-01 -7.36750e-02
-    M3_METALLIC_INSERT               BRONZO
+         1.30000e-06  3.04607e-01  1.38589e+01 -7.40579e-01 -5.63810e-02
+    M3_INS                           BRONZO
          9.00000e-06  5.96412e-04  2.25000e+00  1.05581e+02  1.08937e+02
-    M3_METALLIC_INSERT               BRONZO
+    M3_INS                           BRONZO
          9.00000e-06  5.96412e-04  2.25000e+00  9.90449e+01  9.88731e+01
-    M3_METALLIC_INSERT               BRONZO
+    M3_INS                           BRONZO
          9.00000e-06  5.96412e-04  2.25000e+00  1.05581e+02 -1.08937e+02
-    M3_METALLIC_INSERT               BRONZO
+    M3_INS                           BRONZO
          9.00000e-06  5.96412e-04  2.25000e+00  9.90449e+01 -9.88731e+01
-    M3_METALLIC_INSERT               BRONZO
+    M3_INS                           BRONZO
          9.00000e-06  5.96412e-04  2.25000e+00  5.95134e+01 -3.80000e+01
-    M3_METALLIC_INSERT               BRONZO
+    M3_INS                           BRONZO
          9.00000e-06  5.96412e-04  2.25000e+00  5.95134e+01  3.80000e+01
-    M3_METALLIC_INSERT               BRONZO
+    M3_INS                           BRONZO
          9.00000e-06  5.96412e-04  2.25000e+00 -5.43531e+01  3.80000e+01
-    M3_METALLIC_INSERT               BRONZO
+    M3_INS                           BRONZO
          9.00000e-06  5.96412e-04  2.25000e+00 -5.43531e+01 -3.80000e+01
-    M3_METALLIC_INSERT               BRONZO
+    M3_INS                           BRONZO
          9.00000e-06  5.96412e-04  2.25000e+00 -1.13939e+02 -1.11583e+02
-    M3_METALLIC_INSERT               BRONZO
+    M3_INS                           BRONZO
          9.00000e-06  5.96412e-04  2.25000e+00 -1.06387e+02 -1.02257e+02
-    M3_METALLIC_INSERT               BRONZO
+    M3_INS                           BRONZO
          9.00000e-06  5.96412e-04  2.25000e+00 -1.06387e+02  1.02257e+02
-    M3_METALLIC_INSERT               BRONZO
+    M3_INS                           BRONZO
          9.00000e-06  5.96412e-04  2.25000e+00 -1.13939e+02  1.11583e+02
-    M3_METALLIC_INSERT               BRONZO
+    M3_INS                           BRONZO
          9.00000e-06  5.96412e-04  4.45500e+01  1.52500e+01 -1.52500e+01
-    M3_METALLIC_INSERT               BRONZO
+    M3_INS                           BRONZO
          9.00000e-06  5.96412e-04  4.45500e+01 -1.52500e+01 -1.52500e+01
-    M3_METALLIC_INSERT               BRONZO
+    M3_INS                           BRONZO
          9.00000e-06  5.96412e-04  4.45500e+01 -1.52500e+01  1.52500e+01
-    M3_METALLIC_INSERT               BRONZO
+    M3_INS                           BRONZO
          9.00000e-06  5.96412e-04  4.45500e+01  1.52500e+01  1.52500e+01
     MULTISTAR_ELITE_2312             ALLUMINIO
          3.44000e-06  5.53467e-02  3.28365e+01 -1.40031e+02  1.43803e+02
@@ -100,7 +100,7 @@ R1  R2  R3          8.3224026e+01  8.6549608e+01  1.1638502e+02  MM
     FC                               UNKNOWN
          7.85000e-06  1.98421e-02  4.78000e+01  0.00000e+00  0.00000e+00
     BATT                             UNKNOWN
-         1.95000e-06  3.68550e-01  2.11000e+01 -1.98912e+01  0.00000e+00
+         1.95000e-06  3.68550e-01  2.11000e+01 -9.89119e+00  0.00000e+00
     ESC                              UNKNOWN
          3.00000e-06  1.04973e-02  7.50000e+00 -5.94482e+01  6.01821e+01
     ESC                              UNKNOWN
@@ -114,31 +114,31 @@ R1  R2  R3          8.3224026e+01  8.6549608e+01  1.1638502e+02  MM
     VTX                              UNKNOWN
          5.83500e-06  3.79920e-02  2.59643e+01  2.16503e+01 -3.29723e+01
     ANT                              UNKNOWN
-         1.38000e-06  1.59673e-02  1.49539e+02  3.02424e+01 -3.18000e+01
+         9.00000e-07  1.04135e-02  1.49539e+02  3.02424e+01 -3.18000e+01
     SERVO                            UNKNOWN
-         1.56000e-06  9.79559e-03  3.53000e+01  7.91937e+01  3.81188e+01
+         1.56000e-06  9.83480e-03  3.53000e+01  7.91916e+01  3.80960e+01
     CAMERA_FRAME                     POLIETILENE
-         1.00000e-06  2.48097e-03  3.59281e+01  8.32194e+01 -9.19256e-01
-    M2-5_METALLIC_INSERT             BRONZO
+         1.00000e-06  2.38477e-03  3.59183e+01  8.32302e+01 -9.34151e-01
+    M2-5_INS                         BRONZO
          9.00000e-06  6.67981e-04  4.61713e+01  9.23929e+01 -1.43000e+01
-    M2-5_METALLIC_INSERT             BRONZO
+    M2-5_INS                         BRONZO
          9.00000e-06  6.67981e-04  2.58430e+01  7.38724e+01 -1.43000e+01
-    M2-5_METALLIC_INSERT             BRONZO
+    M2-5_INS                         BRONZO
          9.00000e-06  6.67981e-04  2.58430e+01  7.38724e+01  1.32000e+01
-    M2-5_METALLIC_INSERT             BRONZO
+    M2-5_INS                         BRONZO
          9.00000e-06  6.67981e-04  4.61713e+01  9.23929e+01  1.32000e+01
     CAMERA                           UNKNOWN
          2.36000e-06  5.04180e-02  2.86804e+01  9.11745e+01 -5.50000e-01
     BEARING                          UNKNOWN
          7.85000e-06  1.45528e-03  3.53000e+01  8.39088e+01 -2.87423e+01
     L_GEAR                           POLIETILENE
-         1.00000e-06  4.07556e-03 -1.49457e+01  1.15400e+02 -1.24058e+02
+         1.00000e-06  2.78625e-03 -1.57518e+01  1.15905e+02 -1.24835e+02
     L_GEAR                           POLIETILENE
-         1.00000e-06  4.07556e-03 -1.49457e+01 -1.25285e+02 -1.25594e+02
+         1.00000e-06  2.78625e-03 -1.57518e+01 -1.25868e+02 -1.26314e+02
     L_GEAR                           POLIETILENE
-         1.00000e-06  4.07556e-03 -1.49457e+01 -1.25285e+02  1.25594e+02
+         1.00000e-06  2.78625e-03 -1.57518e+01 -1.25868e+02  1.26314e+02
     L_GEAR                           POLIETILENE
-         1.00000e-06  4.07556e-03 -1.49457e+01  1.15400e+02  1.24058e+02
+         1.00000e-06  2.78625e-03 -1.57518e+01  1.15905e+02  1.24835e+02
     PROP_CCW                         UNKNOWN
          5.00000e-08  3.53656e-04  5.13196e+01  1.29000e+02 -1.45000e+02
     PROP_CCW                         UNKNOWN
@@ -146,21 +146,21 @@ R1  R2  R3          8.3224026e+01  8.6549608e+01  1.1638502e+02  MM
     SPACER                           UNKNOWN
          7.85000e-06  9.86460e-05  3.53000e+01  8.39088e+01 -2.56000e+01
     V3-6--_-_U7687_PZ                UNKNOWN
-         7.85000e-06  7.27199e-04 -2.64937e+00 -1.13939e+02  1.11583e+02
+         7.85000e-06  7.27199e-04 -2.24937e+00 -1.13939e+02  1.11583e+02
     V3-6--_-_U7687_PZ                UNKNOWN
-         7.85000e-06  7.27199e-04 -2.64937e+00 -1.06387e+02  1.02257e+02
+         7.85000e-06  7.27199e-04 -2.24937e+00 -1.06387e+02  1.02257e+02
     V3-6--_-_U7687_PZ                UNKNOWN
-         7.85000e-06  7.27199e-04 -2.64937e+00 -1.13939e+02 -1.11583e+02
+         7.85000e-06  7.27199e-04 -2.24937e+00 -1.13939e+02 -1.11583e+02
     V3-6--_-_U7687_PZ                UNKNOWN
-         7.85000e-06  7.27199e-04 -2.64937e+00 -1.06387e+02 -1.02257e+02
+         7.85000e-06  7.27199e-04 -2.24937e+00 -1.06387e+02 -1.02257e+02
     V3-6--_-_U7687_PZ                UNKNOWN
-         7.85000e-06  7.27199e-04 -2.64937e+00  1.05581e+02  1.08937e+02
+         7.85000e-06  7.27199e-04 -2.24937e+00  1.05581e+02  1.08937e+02
     V3-6--_-_U7687_PZ                UNKNOWN
-         7.85000e-06  7.27199e-04 -2.64937e+00  9.90449e+01  9.88731e+01
+         7.85000e-06  7.27199e-04 -2.24937e+00  9.90449e+01  9.88731e+01
     V3-6--_-_U7687_PZ                UNKNOWN
-         7.85000e-06  7.27199e-04 -2.64937e+00  9.90449e+01 -9.88731e+01
+         7.85000e-06  7.27199e-04 -2.24937e+00  9.90449e+01 -9.88731e+01
     V3-6--_-_U7687_PZ                UNKNOWN
-         7.85000e-06  7.27199e-04 -2.64937e+00  1.05581e+02 -1.08937e+02
+         7.85000e-06  7.27199e-04 -2.24937e+00  1.05581e+02 -1.08937e+02
     V3-8--_-_U7687_PZ                UNKNOWN
          7.85000e-06  8.20453e-04  1.62836e+01 -1.50448e+02  1.45993e+02
     V3-8--_-_U7687_PZ                UNKNOWN

@@ -2,8 +2,8 @@
 
                          VOLUME =  1.1570518e+04 MM^3
                    SURFACE AREA =  3.4714542e+03 MM^2
-                        DENSITY =  1.3800000e-06 KILOGRAM / MM^3
-                           MASS =  1.5967315e-02 KILOGRAM 
+                        DENSITY =  9.0000000e-07 KILOGRAM / MM^3
+                           MASS =  1.0413466e-02 KILOGRAM 
 
             CENTER OF GRAVITY with respect to _ANT coordinate frame:
 X   Y   Z           0.0000000e+00  8.6539436e+01  0.0000000e+00  MM
@@ -11,19 +11,19 @@ X   Y   Z           0.0000000e+00  8.6539436e+01  0.0000000e+00  MM
         INERTIA with respect to _ANT coordinate frame:  (KILOGRAM * MM^2)
 
 INERTIA TENSOR:
-Ixx Ixy Ixz         1.2293732e+02  0.0000000e+00  0.0000000e+00
-Iyx Iyy Iyz         0.0000000e+00  1.7754261e+00  0.0000000e+00
-Izx Izy Izz         0.0000000e+00  0.0000000e+00  1.2293733e+02
+Ixx Ixy Ixz         8.0176515e+01  0.0000000e+00  0.0000000e+00
+Iyx Iyy Iyz         0.0000000e+00  1.1578866e+00  0.0000000e+00
+Izx Izy Izz         0.0000000e+00  0.0000000e+00  8.0176518e+01
 
        INERTIA at CENTER OF GRAVITY with respect to _ANT coordinate frame:
                                                         (KILOGRAM * MM^2)       
 INERTIA TENSOR:
-Ixx Ixy Ixz         3.3569208e+00  0.0000000e+00  0.0000000e+00
-Iyx Iyy Iyz         0.0000000e+00  1.7754261e+00  0.0000000e+00
-Izx Izy Izz         0.0000000e+00  0.0000000e+00  3.3569258e+00
+Ixx Ixy Ixz         2.1892962e+00  0.0000000e+00  0.0000000e+00
+Iyx Iyy Iyz         0.0000000e+00  1.1578866e+00  0.0000000e+00
+Izx Izy Izz         0.0000000e+00  0.0000000e+00  2.1892994e+00
 
                 PRINCIPAL MOMENTS OF INERTIA:  (KILOGRAM * MM^2)
-I1  I2  I3          1.7754261e+00  3.3569153e+00  3.3569313e+00
+I1  I2  I3          1.1578866e+00  2.1892926e+00  2.1893030e+00
 
             ROTATION MATRIX from _ANT orientation to PRINCIPAL AXES:
                        0.00000        0.00000        1.00000
