@@ -36,7 +36,7 @@ Here's a [Video](https://www.youtube.com/watch?v=QMW7MYOoSNg) with a (shitty) te
 
 [Wiring diagram](https://github.com/rb1205/unibody_fpv_quad/raw/master/docs/wiring_diagram.pdf)
 
-[Flight controller PID settings for CleanFlight](docs/fc_settings.md) (valid only for the powertrain configuration listed in the BOM)
+[Reference flight controller settings for iNav](config_files) (valid only for the powertrain configuration listed in the BOM)
 
 ---
 
