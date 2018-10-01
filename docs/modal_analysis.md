@@ -20,9 +20,3 @@ The following figures show the first 3 real eigenfrequencies with the relative m
 
 The first free body resonation happens at about 56 Hertz and is caused by the arms vibrating on the fixing point on the central box, planarly on the horizontal plane. The second and third frequencies are similar and happen at around 68 hertz, and are due to the arms vibrating out of the horizontal plane.
 
-## Conclusions
-
-The first resonating frequency happens at around 55 hz. This is a good value for this size class that makes the frame suitable for FPV usage. These results will be used during the calibration of the flight controller to set up the low pass filter to cut out resonating frequencies and relative harmonics from the inertial sensors output. More specifically about cleanflight, the following settings will be used:
-
-    set gyro_lpf=98HZ
-    set gyro_soft_lpf=49
