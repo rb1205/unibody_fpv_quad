@@ -34,6 +34,3 @@ Material: Whatever
 
 You're free to print this part as you wish as long as the resulting part is completely solid.
 
-### naze32cover
-
-You're free to print this part as you wish.

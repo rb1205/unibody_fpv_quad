@@ -2,7 +2,7 @@
 
 ![Quad photo](docs/3-4_photo_800x600.jpg)
 
-A size class 400 FPV quadcopter assembled over a single piece FDM printable body. Some highlights:
+A size class 400 FPV quadcopter assembled over a single piece FDM printable body, designed for long range freestyle FPV. Some highlights:
 
 * Good FPV flight performances for its class due to high frame rigidity (comparable to frames made from single carbon fiber sheets) and relatively low inertia moment
 * servo-operated tiltable FPV CCD camera mount with 180° mechanical range integrated in the unibody frame.
@@ -13,7 +13,7 @@ A size class 400 FPV quadcopter assembled over a single piece FDM printable body
 ## Stats
 
 * Made for 9" props
-* Typical flight time is ~15 minutes with a 3300 mAh 4s battery. 
+* Typical flight time is ~15-20 minutes with a 3300 mAh 4s battery. 
 * Weight is 200g for the frame alone, ~700g for the assembled quad without battery and ~1000g with a 3300 mAh 4s lipo battery
 * Inertia moments around CoG are around 1, 1 and 2 Kg/dm^2 (pitch,roll,yaw)
 * Battery bay size=50x38x120 mm
@@ -21,6 +21,8 @@ A size class 400 FPV quadcopter assembled over a single piece FDM printable body
 Due to the frame size, you'll need a bigger-than-average printer with a minimum build envelope of 320x300x50mm to print the body.
 
 CAD/CAM used for this project is Creo V.2.
+
+![Quad CAD model](docs/cad.png)
 
 Here's a [Video](https://www.youtube.com/watch?v=QMW7MYOoSNg) with a (shitty) test flight.
 
