@@ -20,7 +20,7 @@ A size class 400 FPV quadcopter assembled over a single piece FDM printable body
 
 Due to the frame size, you'll need a bigger-than-average printer with a minimum build envelope of 320x300x50mm to print the body.
 
-CAD/CAM used for this project is Creo V.2.
+CAD files are included in the project, software used is PTC Creo V.2. 
 
 ![Quad CAD model](docs/cad.png)
 
