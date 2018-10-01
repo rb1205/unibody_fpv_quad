@@ -1,0 +1,227 @@
+# version
+# INAV/MATEKF722 2.0.0 Aug 20 2018 / 19:21:31 (dbdd1656a)
+
+# resources
+
+# mixer
+mmix 0  1.000 -1.000  1.000 -1.000
+mmix 1  1.000 -1.000 -1.000  1.000
+mmix 2  1.000  1.000  1.000  1.000
+mmix 3  1.000  1.000 -1.000 -1.000
+
+# servo mix
+smix 0 1 12 100 0
+smix 1 1 9 100 0
+smix 2 0 12 100 0
+
+# servo
+servo 1 700 2300 1500 100
+
+# feature
+feature -TX_PROF_SEL
+feature LED_STRIP
+feature BLACKBOX
+feature PWM_OUTPUT_ENABLE
+
+# beeper
+
+# map
+
+# serial
+serial 0 0 115200 38400 0 115200
+serial 2 2 115200 38400 0 115200
+serial 4 4096 115200 38400 0 115200
+
+# led
+led 0 0,0::AOW:10
+led 1 1,0::AOW:1
+led 2 2,0::AOW:1
+led 3 3,0::AOW:1
+led 4 4,0::AOW:1
+led 5 5,0::AOW:10
+
+# color
+
+# mode_color
+mode_color 6 0 2
+mode_color 6 1 6
+
+# aux
+aux 0 0 0 1350 2100
+aux 1 1 2 1800 2100
+aux 2 2 2 1350 1650
+aux 3 20 0 1800 2100
+aux 4 4 5 1350 1650
+aux 5 5 5 1800 2100
+aux 6 6 8 900 1200
+aux 7 7 10 1400 1600
+aux 8 3 4 1350 2100
+aux 9 9 3 1050 2100
+aux 10 8 3 1800 2100
+aux 11 19 3 1350 1650
+aux 12 21 8 1800 2100
+aux 13 11 10 1800 2100
+aux 14 15 6 1800 2100
+aux 15 18 7 1800 2100
+aux 16 32 6 1800 2100
+
+# adjrange
+
+# rxrange
+
+# osd_layout
+osd_layout 0 0 25 12 V
+osd_layout 0 1 12 0 H
+osd_layout 0 7 12 13 V
+osd_layout 0 9 1 2 H
+osd_layout 0 10 1 1 H
+osd_layout 0 11 1 13 V
+osd_layout 0 12 1 12 V
+osd_layout 0 13 1 7 V
+osd_layout 0 14 25 13 V
+osd_layout 0 15 24 7 V
+osd_layout 0 22 14 3 V
+osd_layout 0 23 2 1 V
+osd_layout 0 25 22 5 H
+osd_layout 0 28 22 1 V
+osd_layout 0 30 1 14 V
+osd_layout 0 32 12 0 V
+osd_layout 0 34 10 2 V
+osd_layout 0 38 24 2 H
+osd_layout 0 54 12 1 V
+osd_layout 0 55 18 0 V
+osd_layout 1 0 23 0 V
+osd_layout 1 10 1 1 V
+osd_layout 1 14 25 13 V
+osd_layout 1 20 9 14 V
+osd_layout 1 21 9 13 V
+osd_layout 1 23 1 13 V
+osd_layout 1 29 23 14 V
+osd_layout 1 31 25 12 V
+osd_layout 1 43 0 0 V
+osd_layout 1 46 1 12 H
+osd_layout 1 47 1 12 H
+osd_layout 1 51 1 12 H
+osd_layout 1 52 1 13 H
+
+# master
+set looptime = 500
+set gyro_sync = ON
+set gyro_hardware_lpf = 256HZ
+set gyro_notch1_hz = 160
+set gyro_notch1_cutoff = 140
+set gyro_notch2_hz = 95
+set gyro_notch2_cutoff = 80
+set acc_notch_hz = 80
+set acc_notch_cutoff = 70
+set acc_hardware = MPU6500
+set acczero_x = -6
+set acczero_y = -9
+set acczero_z = -5
+set accgain_x = 4094
+set accgain_y = 4090
+set accgain_z = 4082
+set mag_hardware = NONE
+set baro_hardware = BMP280
+set pitot_hardware = NONE
+set rssi_channel = 16
+set serialrx_provider = FPORT
+set serialrx_inverted = ON
+set serialrx_halfduplex = ON
+set blackbox_rate_denom = 2
+set sdcard_detect_inverted = ON
+set motor_pwm_rate = 2000
+set motor_pwm_protocol = ONESHOT125
+set failsafe_procedure = RTH
+set align_board_roll = -2
+set current_meter_scale = 300
+set current_meter_offset = 60
+set current_meter_type = VIRTUAL
+set bat_voltage_src = SAG_COMP
+set model_preview_type = 3
+set switch_disarm_delay = 100
+set gps_provider = UBLOX7
+set gps_sbas_mode = EGNOS
+set gps_ublox_use_galileo = ON
+set deadband = 3
+set yaw_deadband = 3
+set pos_hold_deadband = 10
+set alt_hold_deadband = 20
+set inav_reset_altitude = EACH_ARM
+set nav_disarm_on_landing = ON
+set nav_use_midthr_for_althold = ON
+set nav_extra_arming_safety = OFF
+set nav_user_control_mode = CRUISE
+set nav_auto_speed = 400
+set nav_auto_climb_rate = 200
+set nav_manual_speed = 600
+set nav_manual_climb_rate = 400
+set nav_land_slowdown_minalt = 300
+set nav_land_slowdown_maxalt = 1000
+set nav_emerg_landing_speed = 400
+set nav_rth_allow_landing = FS_ONLY
+set nav_rth_abort_threshold = 10000
+set nav_rth_altitude = 2000
+set nav_mc_bank_angle = 40
+set nav_mc_hover_thr = 1380
+set frsky_pitch_roll = ON
+set ledstrip_visual_beeper = ON
+set osd_video_system = PAL
+set osd_time_alarm = 20
+set osd_alt_alarm = 200
+set osd_dist_alarm = 2000
+set osd_neg_alt_alarm = 0
+set osd_crosshairs_style = AIRCRAFT
+set osd_left_sidebar_scroll = GROUND_SPEED
+set osd_right_sidebar_scroll = ALTITUDE
+set osd_sidebar_scroll_arrows = ON
+set osd_main_voltage_decimals = 2
+set throttle_tilt_comp_str = 30
+set stats = ON
+set stats_total_time = 1763
+set stats_total_energy = 81235
+set tz_offset = 120
+set tz_automatic_dst = EU
+set vtx_channel = 2
+set vtx_power = 3
+set vtx_low_power_disarm = UNTIL_FIRST_ARM
+set vtx_freq = 5760
+set vtx_pit_mode_freq = 5800
+
+# profile
+profile 1
+
+set mc_p_pitch = 38
+set mc_i_pitch = 31
+set mc_d_pitch = 55
+set mc_p_roll = 34
+set mc_i_roll = 20
+set mc_d_roll = 50
+set mc_p_yaw = 55
+set mc_i_yaw = 30
+set mc_d_yaw = 30
+set max_angle_inclination_rll = 500
+set max_angle_inclination_pit = 500
+set yaw_lpf_hz = 80
+set dterm_notch_hz = 55
+set dterm_notch_cutoff = 45
+set rate_accel_limit_roll_pitch = 10000
+set rate_accel_limit_yaw = 6000
+set thr_mid = 100
+set tpa_rate = 30
+set tpa_breakpoint = 1600
+set rc_expo = 60
+set roll_rate = 40
+set pitch_rate = 40
+set yaw_rate = 36
+
+# battery_profile
+battery_profile 1
+
+set bat_cells = 4
+set vbat_min_cell_voltage = 340
+set vbat_warning_cell_voltage = 360
+set battery_capacity = 3300
+set battery_capacity_warning = 2640
+set battery_capacity_critical = 2970
+
